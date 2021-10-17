@@ -1,0 +1,110 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2021-10-17 00:18:39.746232",
+ "description": "test",
+ "doctype": "DocType",
+ "document_type": "Document",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "track_name",
+  "isrc",
+  "composition_owner",
+  "storage_url",
+  "column_break_4",
+  "composer",
+  "catalog_no",
+  "master_recording_owner",
+  "naming_series"
+ ],
+ "fields": [
+  {
+   "fieldname": "track_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Track Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "isrc",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "ISRC"
+  },
+  {
+   "fieldname": "composition_owner",
+   "fieldtype": "Link",
+   "label": "Composition Owner",
+   "options": "Company"
+  },
+  {
+   "fieldname": "storage_url",
+   "fieldtype": "Data",
+   "label": "Remote Storage",
+   "length": 500
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "composer",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Composer(s)",
+   "reqd": 1
+  },
+  {
+   "fieldname": "catalog_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Catalog Number"
+  },
+  {
+   "fieldname": "master_recording_owner",
+   "fieldtype": "Link",
+   "label": "Master Recording Owner",
+   "options": "Company"
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "hidden": 1,
+   "label": "Master ID",
+   "options": "MR-.#########."
+  }
+ ],
+ "links": [],
+ "modified": "2021-10-17 10:03:24.097958",
+ "modified_by": "Administrator",
+ "module": "Misc",
+ "name": "Master Recording",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "select": 1,
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "restrict_to_domain": "",
+ "search_fields": "track_name, isrc, catalog_no, composer",
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "title_field": "track_name",
+ "track_changes": 1
+}

@@ -1,0 +1,231 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2021-10-17 00:00:26.211776",
+ "doctype": "DocType",
+ "document_type": "Document",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "cue_sheet_section",
+  "program_title",
+  "classification",
+  "initial_air_date",
+  "initial_venue",
+  "source",
+  "duration",
+  "music_duration",
+  "production_company",
+  "column_break_3",
+  "program_aka",
+  "category",
+  "version",
+  "initial_venue_detail",
+  "episode_title",
+  "episode_number",
+  "production_number",
+  "production_co_address",
+  "preparer_information",
+  "prepared_by",
+  "prepared_date",
+  "column_break_17",
+  "prepared_email",
+  "prepared_co",
+  "amended_from",
+  "cues_section",
+  "cues"
+ ],
+ "fields": [
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "hidden": 1,
+   "label": "Series",
+   "options": "CS-.#########."
+  },
+  {
+   "fieldname": "cue_sheet_section",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "program_title",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Program Title",
+   "reqd": 1
+  },
+  {
+   "fieldname": "classification",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Classification",
+   "options": "Original\nRevision",
+   "reqd": 1
+  },
+  {
+   "fieldname": "initial_air_date",
+   "fieldtype": "Date",
+   "label": "Initial Airdate"
+  },
+  {
+   "fieldname": "initial_venue",
+   "fieldtype": "Data",
+   "label": "Initial Venue"
+  },
+  {
+   "fieldname": "source",
+   "fieldtype": "Data",
+   "label": "Network/Source"
+  },
+  {
+   "fieldname": "duration",
+   "fieldtype": "Duration",
+   "in_list_view": 1,
+   "label": "Program Duration",
+   "reqd": 1
+  },
+  {
+   "fieldname": "music_duration",
+   "fieldtype": "Duration",
+   "label": "Total Music Duration"
+  },
+  {
+   "fieldname": "production_company",
+   "fieldtype": "Data",
+   "label": "Production Company",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "program_aka",
+   "fieldtype": "Data",
+   "label": "Program Title AKA(s)"
+  },
+  {
+   "default": "Movie",
+   "fieldname": "category",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Category",
+   "options": "Arts\nBroadcast\nBroadcast Series\nCartoon\nCartoon Series\nChildren's Show\nChildren's Special\nCinema\nDaytime Soap\nEntertainment News\nFinance\nFirst Run Syndicated\nGame Show\nHealth\nHobbies/Craft\nInstructional\nMagazine News\nMini-Series\nMovie\nShort Film\nMusic\nMusic Special\nMusic Video\nMusic Video Series\nNews\nNon Broadcast\nNon Broadcast Series\nNovela\nPaid Programs\nPelicula\nPlay-off Sport\nPseudo-Sport\nReality\nReligious\nReligious Special\nSeasonal Special\nSeries\nSpecial\nSporting Event\nSports\nSports Anthology\nSports Related\nTalk Show\nTeam vs. Team Sport\nTheme Park\nTheme Park Series\nTrailer\nTV Movie",
+   "reqd": 1
+  },
+  {
+   "default": "Theatrical",
+   "fieldname": "version",
+   "fieldtype": "Select",
+   "label": "Version",
+   "options": "Airline\nCable\nEdited for TV\nHome Video\nInternet\nMusic Video\nNetwork\nNew Media\nNon Broadcast\nNon US\nPBS\nSyndicated\nTheatrical\nTheme Park\nUS\nFestival Circuit\nUnknown"
+  },
+  {
+   "fieldname": "initial_venue_detail",
+   "fieldtype": "Data",
+   "label": "Initial Venue Detail"
+  },
+  {
+   "fieldname": "episode_title",
+   "fieldtype": "Data",
+   "label": "Episode Title"
+  },
+  {
+   "fieldname": "episode_number",
+   "fieldtype": "Data",
+   "label": "Episode Number"
+  },
+  {
+   "fieldname": "production_number",
+   "fieldtype": "Data",
+   "label": "Production Number"
+  },
+  {
+   "fieldname": "production_co_address",
+   "fieldtype": "Data",
+   "label": "Production Co. Address"
+  },
+  {
+   "fieldname": "preparer_information",
+   "fieldtype": "Section Break",
+   "label": "Preparer Information"
+  },
+  {
+   "fieldname": "prepared_by",
+   "fieldtype": "Data",
+   "label": "Prepared By",
+   "reqd": 1
+  },
+  {
+   "fieldname": "prepared_date",
+   "fieldtype": "Date",
+   "label": "Prepared Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_17",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "prepared_email",
+   "fieldtype": "Data",
+   "label": "Email Address",
+   "reqd": 1
+  },
+  {
+   "fieldname": "prepared_co",
+   "fieldtype": "Link",
+   "label": "Prepared By Company",
+   "options": "Company"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Cue Sheet",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "cues_section",
+   "fieldtype": "Section Break",
+   "label": "Cues"
+  },
+  {
+   "fieldname": "cues",
+   "fieldtype": "Table",
+   "label": "Cues",
+   "options": "Cue Sheet Track",
+   "reqd": 1
+  }
+ ],
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2021-10-17 02:43:12.726038",
+ "modified_by": "Administrator",
+ "module": "Misc",
+ "name": "Cue Sheet",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

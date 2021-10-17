@@ -1,0 +1,153 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2021-10-17 00:11:17.996750",
+ "doctype": "DocType",
+ "document_type": "Document",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "production_information_section",
+  "production_title",
+  "composer",
+  "duration",
+  "episode_title",
+  "production_company",
+  "production_co_address",
+  "column_break_3",
+  "category",
+  "music_editor",
+  "music_duration",
+  "episode_number",
+  "producer_name",
+  "producer_phone",
+  "cues_section",
+  "cue"
+ ],
+ "fields": [
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "hidden": 1,
+   "label": "Series",
+   "options": "SN-.#########."
+  },
+  {
+   "fieldname": "production_information_section",
+   "fieldtype": "Section Break",
+   "label": "Production Information"
+  },
+  {
+   "fieldname": "production_title",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Production Title",
+   "reqd": 1
+  },
+  {
+   "fieldname": "composer",
+   "fieldtype": "Data",
+   "label": "Composer"
+  },
+  {
+   "fieldname": "duration",
+   "fieldtype": "Duration",
+   "in_list_view": 1,
+   "label": "Program Duration"
+  },
+  {
+   "fieldname": "episode_title",
+   "fieldtype": "Data",
+   "label": "Episode Title"
+  },
+  {
+   "fieldname": "production_company",
+   "fieldtype": "Data",
+   "label": "Production Company",
+   "reqd": 1
+  },
+  {
+   "fieldname": "production_co_address",
+   "fieldtype": "Data",
+   "label": "Production Co. Address"
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "Movie",
+   "fieldname": "category",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Category",
+   "options": "Arts\nBroadcast\nBroadcast Series\nCartoon\nCartoon Series\nChildren's Show\nChildren's Special\nCinema\nDaytime Soap\nEntertainment News\nFinance\nFirst Run Syndicated\nGame Show\nHealth\nHobbies/Craft\nInstructional\nMagazine News\nMini-Series\nMovie\nShort Film\nMusic\nMusic Special\nMusic Video\nMusic Video Series\nNews\nNon Broadcast\nNon Broadcast Series\nNovela\nPaid Programs\nPelicula\nPlay-off Sport\nPseudo-Sport\nReality\nReligious\nReligious Special\nSeasonal Special\nSeries\nSpecial\nSporting Event\nSports\nSports Anthology\nSports Related\nTalk Show\nTeam vs. Team Sport\nTheme Park\nTheme Park Series\nTrailer\nTV Movie",
+   "reqd": 1
+  },
+  {
+   "fieldname": "music_editor",
+   "fieldtype": "Data",
+   "label": "Music Editor"
+  },
+  {
+   "fieldname": "music_duration",
+   "fieldtype": "Duration",
+   "label": "Total Music Duration"
+  },
+  {
+   "fieldname": "episode_number",
+   "fieldtype": "Data",
+   "label": "Episode Number"
+  },
+  {
+   "fieldname": "producer_name",
+   "fieldtype": "Data",
+   "label": "Producer"
+  },
+  {
+   "fieldname": "producer_phone",
+   "fieldtype": "Data",
+   "label": "Producer Phone No."
+  },
+  {
+   "fieldname": "cues_section",
+   "fieldtype": "Section Break",
+   "label": "Cues"
+  },
+  {
+   "fieldname": "cue",
+   "fieldtype": "Table",
+   "label": "Note: all timecodes are measured from 01:00:00:00",
+   "options": "Spotting Note Cue",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-10-17 02:43:44.614693",
+ "modified_by": "Administrator",
+ "module": "Misc",
+ "name": "Spotting Note",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "restrict_to_domain": "",
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
