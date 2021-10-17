@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include filmcomposer *.css
+recursive-include filmcomposer *.csv
+recursive-include filmcomposer *.html
+recursive-include filmcomposer *.ico
+recursive-include filmcomposer *.js
+recursive-include filmcomposer *.json
+recursive-include filmcomposer *.md
+recursive-include filmcomposer *.png
+recursive-include filmcomposer *.py
+recursive-include filmcomposer *.svg
+recursive-include filmcomposer *.txt
+recursive-exclude filmcomposer *.pyc
