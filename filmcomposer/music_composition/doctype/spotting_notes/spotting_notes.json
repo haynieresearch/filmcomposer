@@ -31,7 +31,9 @@
    "fieldtype": "Select",
    "hidden": 1,
    "label": "Series",
-   "options": "SN-.#########."
+   "options": "SN-.#########.",
+   "print_hide": 1,
+   "report_hide": 1
   },
   {
    "fieldname": "production_information_section",
@@ -124,7 +126,7 @@
   }
  ],
  "links": [],
- "modified": "2021-10-17 10:47:49.946757",
+ "modified": "2021-10-17 13:08:48.250039",
  "modified_by": "Administrator",
  "module": "Music Composition",
  "name": "Spotting Notes",
@@ -144,7 +146,6 @@
    "write": 1
   }
  ],
- "restrict_to_domain": "",
  "sort_field": "creation",
  "sort_order": "DESC",
  "track_changes": 1
