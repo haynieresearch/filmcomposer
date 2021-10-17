@@ -1,0 +1,28 @@
+{
+ "add_total_row": 0,
+ "columns": [],
+ "creation": "2021-10-17 13:23:24.593856",
+ "disable_prepared_report": 0,
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "json": "{\"filters\":[],\"fields\":[[\"name\",\"Master Recording\"],[\"track_name\",\"Master Recording\"],[\"isrc\",\"Master Recording\"],[\"catalog_no\",\"Master Recording\"],[\"composer\",\"Master Recording\"],[\"composition_owner\",\"Master Recording\"],[\"master_recording_owner\",\"Master Recording\"]],\"order_by\":\"`tabMaster Recording`.`modified` desc\",\"page_length\":20,\"column_widths\":{\"name\":120,\"track_name\":120,\"isrc\":120,\"catalog_no\":120,\"composer\":120,\"composition_owner\":120,\"master_recording_owner\":120},\"group_by\":null}",
+ "letter_head": "BiffCo Enterprises",
+ "modified": "2021-10-17 13:24:40.090264",
+ "modified_by": "Administrator",
+ "module": "Rights Management",
+ "name": "Master Recordings",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "ref_doctype": "Master Recording",
+ "report_name": "Master Recordings",
+ "report_type": "Report Builder",
+ "roles": [
+  {
+   "role": "System Manager"
+  }
+ ]
+}

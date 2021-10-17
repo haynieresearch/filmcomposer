@@ -42,7 +42,9 @@
    "fieldtype": "Select",
    "hidden": 1,
    "label": "Series",
-   "options": "CS-.#########."
+   "options": "CS-.#########.",
+   "print_hide": 1,
+   "report_hide": 1
   },
   {
    "fieldname": "cue_sheet_section",
@@ -203,7 +205,7 @@
  ],
  "is_submittable": 1,
  "links": [],
- "modified": "2021-10-17 10:48:09.522945",
+ "modified": "2021-10-17 13:17:56.808757",
  "modified_by": "Administrator",
  "module": "Rights Management",
  "name": "Cue Sheet",
