@@ -1,17 +1,15 @@
 {
  "actions": [],
  "autoname": "hash",
- "creation": "2021-10-17 22:23:01.921831",
+ "creation": "2021-10-18 16:08:23.290697",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
   "cue_id",
   "cue_no",
-  "start_time",
-  "stop_time",
-  "emotion",
-  "description"
+  "status",
+  "notes"
  ],
  "fields": [
   {
@@ -33,39 +31,26 @@
    "read_only": 1
   },
   {
-   "fieldname": "start_time",
-   "fieldtype": "Duration",
-   "hide_days": 1,
-   "in_list_view": 1,
-   "label": "Start"
-  },
-  {
-   "fieldname": "stop_time",
-   "fieldtype": "Duration",
-   "hide_days": 1,
-   "in_list_view": 1,
-   "label": "Stop"
-  },
-  {
-   "fieldname": "description",
+   "fieldname": "notes",
    "fieldtype": "Long Text",
    "in_list_view": 1,
-   "label": "Description"
+   "label": "Notes"
   },
   {
-   "fieldname": "emotion",
+   "default": "Research",
+   "fieldname": "status",
    "fieldtype": "Select",
    "in_list_view": 1,
-   "label": "Emotion",
-   "options": "Admiration\nAdoration\nAppreciation\nAmusement\nAnger\nAnxiety\nAwe\nAwkwardness\nBoredom\nCalmness\nConfusion\nCraving\nDisgust\nEmpathic\nEntrancement\nExcitement\nFear\nHorror\nInterest\nJoy\nNostalgia\nRelief\nSadness\nSatisfaction\nSurprise"
+   "label": "Status",
+   "options": "Research\nRevision\nApproval\nProduction\nMixing\nMastering\nCompleted"
   }
  ],
  "istable": 1,
  "links": [],
- "modified": "2021-10-18 16:12:12.328343",
+ "modified": "2021-10-18 16:14:40.535708",
  "modified_by": "Administrator",
  "module": "Music Composition",
- "name": "Spotting Notes Cues",
+ "name": "Sketch Cues",
  "naming_rule": "Random",
  "owner": "Administrator",
  "permissions": [],

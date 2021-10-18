@@ -18,34 +18,6 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Music Composition",
-   "link_count": 2,
-   "onboard": 0,
-   "type": "Card Break"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Productions",
-   "link_count": 0,
-   "link_to": "Production",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Spotting Notes",
-   "link_count": 0,
-   "link_to": "Spotting Notes",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
    "label": "Rights Management",
    "link_count": 3,
    "onboard": 0,
@@ -108,9 +80,47 @@
    "link_type": "Report",
    "onboard": 0,
    "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Music Composition",
+   "link_count": 3,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Productions",
+   "link_count": 0,
+   "link_to": "Production",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Spotting Notes",
+   "link_count": 0,
+   "link_to": "Spotting Notes",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Sketch Projects",
+   "link_count": 0,
+   "link_to": "Sketch Project",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
   }
  ],
- "modified": "2021-10-18 15:11:18.366208",
+ "modified": "2021-10-18 16:33:14.494424",
  "modified_by": "Administrator",
  "module": "Music Composition",
  "name": "Film Scoring",
