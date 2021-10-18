@@ -1,0 +1,28 @@
+{
+ "add_total_row": 1,
+ "columns": [],
+ "creation": "2021-10-18 15:00:46.923818",
+ "disable_prepared_report": 0,
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "json": "{\"filters\":[],\"fields\":[[\"name\",\"Master Recording\"],[\"track_name\",\"Master Recording\"],[\"storage_url\",\"Master Recording\"]],\"order_by\":\"`tabMaster Recording`.`creation` desc\",\"add_totals_row\":0,\"page_length\":20,\"column_widths\":{\"name\":120,\"track_name\":120,\"storage_url\":120},\"group_by\":null}",
+ "letter_head": "BiffCo Enterprises",
+ "modified": "2021-10-18 15:02:38.974940",
+ "modified_by": "Administrator",
+ "module": "Rights Management",
+ "name": "Master Recording Remote Storage",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "ref_doctype": "Master Recording",
+ "report_name": "Master Recording Remote Storage",
+ "report_type": "Report Builder",
+ "roles": [
+  {
+   "role": "System Manager"
+  }
+ ]
+}

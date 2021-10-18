@@ -27,7 +27,8 @@
   "director_mobile",
   "section_break",
   "html",
-  "cues"
+  "cues",
+  "amended_from"
  ],
  "fields": [
   {
@@ -153,10 +154,20 @@
   {
    "fieldname": "column_break_0",
    "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Spotting Notes",
+   "print_hide": 1,
+   "read_only": 1
   }
  ],
+ "is_submittable": 1,
  "links": [],
- "modified": "2021-10-18 12:58:18.476886",
+ "modified": "2021-10-18 14:42:53.719132",
  "modified_by": "Administrator",
  "module": "Music Composition",
  "name": "Spotting Notes",

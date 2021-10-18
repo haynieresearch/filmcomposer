@@ -1,0 +1,154 @@
+{
+ "category": "Modules",
+ "charts": [],
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"Shortcuts\",\"level\":4,\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Open Production Projects\",\"col\":4}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Pending Spotting Notes\",\"col\":4}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Pending Cue Sheets\",\"col\":4}},{\"type\":\"spacer\",\"data\":{\"col\":12}},{\"type\":\"header\",\"data\":{\"text\":\"Reports &amp; Masters\",\"level\":4,\"col\":12}},{\"type\":\"card\",\"data\":{\"card_name\":\"Music Composition\",\"col\":4}},{\"type\":\"card\",\"data\":{\"card_name\":\"Rights Management\",\"col\":4}},{\"type\":\"card\",\"data\":{\"card_name\":\"Reports\",\"col\":4}}]",
+ "creation": "2021-10-18 14:35:50.959993",
+ "developer_mode_only": 0,
+ "disable_user_customization": 0,
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "extends_another_page": 0,
+ "hide_custom": 0,
+ "icon": "milestone",
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "label": "Film Scoring",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Music Composition",
+   "link_count": 2,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Productions",
+   "link_count": 0,
+   "link_to": "Production",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Spotting Notes",
+   "link_count": 0,
+   "link_to": "Spotting Notes",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Rights Management",
+   "link_count": 3,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Master Recordings",
+   "link_count": 0,
+   "link_to": "Master Recording",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Cue Sheets",
+   "link_count": 0,
+   "link_to": "Cue Sheet",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Cues",
+   "link_count": 0,
+   "link_to": "Cue",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Reports",
+   "link_count": 2,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Master Recording Detail",
+   "link_count": 0,
+   "link_to": "Master Recording Detail",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Master Recording Remote Storage",
+   "link_count": 0,
+   "link_to": "Master Recording Remote Storage",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2021-10-18 15:04:36.667199",
+ "modified_by": "Administrator",
+ "module": "Music Composition",
+ "name": "Film Scoring",
+ "owner": "Administrator",
+ "pin_to_bottom": 0,
+ "pin_to_top": 0,
+ "public": 1,
+ "roles": [
+  {
+   "role": "All"
+  }
+ ],
+ "sequence_id": 1,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Open Production Projects",
+   "link_to": "Production",
+   "stats_filter": "{\"status\":[\"not in\",[\"Completed\",null]]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Pending Spotting Notes",
+   "link_to": "Spotting Notes",
+   "stats_filter": "{\"docstatus\":[\"=\",\"0\"]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Pending Cue Sheets",
+   "link_to": "Cue Sheet",
+   "stats_filter": "{\"docstatus\":[\"=\",null]}",
+   "type": "DocType"
+  }
+ ],
+ "title": "Film Scoring"
+}
