@@ -23,14 +23,14 @@ frappe.ui.form.on('Spotting Notes', {
     cur_frm.add_fetch('production_id', 'director_email', 'director_email')
     cur_frm.add_fetch('production_id', 'director_phone', 'director_phone')
     cur_frm.add_fetch('production_id', 'director_mobile', 'director_mobile')
-    frm.add_custom_button('Create Cue Sheet', () => {
-        frappe.new_doc('Cue Sheet', {
+    frm.add_custom_button('Create Sketch Project', () => {
+        frappe.new_doc('Sketch Project', {
             production_id: frm.doc.production_id,
             spotting_notes_id: frm.doc.name,
         })
     })
-    frm.add_custom_button('Create Sketch Project', () => {
-        frappe.new_doc('Sketch Project', {
+    frm.add_custom_button('Create Cue Sheet', () => {
+        frappe.new_doc('Cue Sheet', {
             production_id: frm.doc.production_id,
             spotting_notes_id: frm.doc.name,
         })
