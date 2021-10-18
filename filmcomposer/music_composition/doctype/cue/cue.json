@@ -20,11 +20,11 @@
   {
    "fieldname": "cue_id",
    "fieldtype": "Data",
-   "label": "Cue ID"
+   "label": "Cue #"
   }
  ],
  "links": [],
- "modified": "2021-10-18 10:02:06.048313",
+ "modified": "2021-10-18 12:16:38.394378",
  "modified_by": "Administrator",
  "module": "Music Composition",
  "name": "Cue",

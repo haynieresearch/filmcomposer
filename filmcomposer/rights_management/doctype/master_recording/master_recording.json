@@ -10,8 +10,8 @@
   "track_name",
   "isrc",
   "composition_owner",
-  "cue_id",
   "production_id",
+  "cue_id",
   "column_break_4",
   "composer",
   "catalog_no",
@@ -71,20 +71,20 @@
    "options": "Company"
   },
   {
-   "fieldname": "cue_id",
-   "fieldtype": "Link",
-   "label": "Cue ID",
-   "options": "Cues"
-  },
-  {
    "fieldname": "production_id",
    "fieldtype": "Link",
    "label": "Production",
    "options": "Production"
+  },
+  {
+   "fieldname": "cue_id",
+   "fieldtype": "Link",
+   "label": "Cue #",
+   "options": "Cue"
   }
  ],
  "links": [],
- "modified": "2021-10-17 18:46:18.407107",
+ "modified": "2021-10-18 12:16:47.285196",
  "modified_by": "Administrator",
  "module": "Rights Management",
  "name": "Master Recording",
