@@ -1,0 +1,31 @@
+{
+ "add_total_row": 0,
+ "columns": [],
+ "creation": "2021-10-18 15:15:03.683678",
+ "disable_prepared_report": 0,
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "json": "{\"filters\":[[\"Production\",\"status\",\"!=\",\"Completed\",false]],\"fields\":[[\"status\",\"Production\"],[\"_aggregate_column\",\"Production\"]],\"order_by\":\"`tabProduction`.`creation` desc\",\"add_totals_row\":0,\"page_length\":20,\"column_widths\":{\"status\":120,\"_aggregate_column\":200},\"group_by\":{\"group_by\":\"`tabProduction`.`status`\",\"aggregate_function\":\"count\",\"aggregate_on\":null},\"chart_args\":{\"chart_type\":\"bar\",\"x_axis\":\"status\",\"y_axes\":[\"_aggregate_column\"]}}",
+ "letter_head": "BiffCo Enterprises",
+ "modified": "2021-10-18 15:18:18.568933",
+ "modified_by": "Administrator",
+ "module": "Music Composition",
+ "name": "Production Status Summary",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "ref_doctype": "Production",
+ "report_name": "Production Status Summary",
+ "report_type": "Report Builder",
+ "roles": [
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "Employee"
+  }
+ ]
+}
