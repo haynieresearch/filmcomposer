@@ -8,13 +8,14 @@
  "engine": "InnoDB",
  "field_order": [
   "production_id",
-  "production_information_section",
   "composer",
+  "column_break_0",
+  "music_editor",
+  "production_information_section",
   "duration",
   "music_duration",
   "episode_title",
   "column_break_1",
-  "music_editor",
   "category",
   "version",
   "episode_number",
@@ -40,6 +41,7 @@
    "reqd": 1
   },
   {
+   "collapsible": 1,
    "fieldname": "production_information_section",
    "fieldtype": "Section Break",
    "label": "Production Information"
@@ -89,6 +91,7 @@
    "read_only": 1
   },
   {
+   "collapsible": 1,
    "fieldname": "director_section",
    "fieldtype": "Section Break",
    "label": "Director"
@@ -146,10 +149,14 @@
    "fieldname": "music_editor",
    "fieldtype": "Data",
    "label": "Music Editor"
+  },
+  {
+   "fieldname": "column_break_0",
+   "fieldtype": "Column Break"
   }
  ],
  "links": [],
- "modified": "2021-10-18 10:22:08.066643",
+ "modified": "2021-10-18 12:58:18.476886",
  "modified_by": "Administrator",
  "module": "Music Composition",
  "name": "Spotting Notes",

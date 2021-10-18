@@ -1,7 +1,7 @@
 {
  "absolute_value": 0,
  "align_labels_right": 0,
- "creation": "2021-10-17 13:02:33.758672",
+ "creation": "2021-10-18 13:03:28.090186",
  "custom_format": 0,
  "default_print_language": "en-US",
  "disabled": 0,
@@ -9,10 +9,10 @@
  "docstatus": 0,
  "doctype": "Print Format",
  "font": "Default",
- "format_data": "[{\"fieldname\": \"print_heading_template\", \"fieldtype\": \"Custom HTML\", \"options\": \"<div class=\\\"print-heading\\\">\\t\\t\\t\\t<h2><div>Spotting Notes<br>{{ doc.production_title }}\\t\\t\\t</h2></div>\"}, {\"fieldtype\": \"Section Break\", \"label\": \"Production Information\"}, {\"fieldtype\": \"Column Break\"}, {\"fieldname\": \"production_title\", \"print_hide\": 0, \"label\": \"Production Title\"}, {\"fieldname\": \"composer\", \"print_hide\": 0, \"label\": \"Composer\"}, {\"fieldname\": \"duration\", \"print_hide\": 0, \"label\": \"Program Duration\"}, {\"fieldname\": \"episode_title\", \"print_hide\": 0, \"label\": \"Episode Title\"}, {\"fieldname\": \"production_company\", \"print_hide\": 0, \"label\": \"Production Company\"}, {\"fieldname\": \"production_co_address\", \"print_hide\": 0, \"label\": \"Production Co. Address\"}, {\"fieldtype\": \"Column Break\"}, {\"fieldname\": \"category\", \"print_hide\": 0, \"label\": \"Category\"}, {\"fieldname\": \"music_editor\", \"print_hide\": 0, \"label\": \"Music Editor\"}, {\"fieldname\": \"music_duration\", \"print_hide\": 0, \"label\": \"Total Music Duration\"}, {\"fieldname\": \"episode_number\", \"print_hide\": 0, \"label\": \"Episode Number\"}, {\"fieldname\": \"producer_name\", \"print_hide\": 0, \"label\": \"Producer\"}, {\"fieldname\": \"producer_phone\", \"print_hide\": 0, \"label\": \"Producer Phone No.\"}, {\"fieldtype\": \"Section Break\", \"label\": \"Cues\"}, {\"fieldtype\": \"Column Break\"}, {\"fieldname\": \"cue\", \"print_hide\": 0, \"label\": \"Note: all timecodes are measured from 01:00:00:00\", \"visible_columns\": [{\"fieldname\": \"cue_number\", \"print_width\": \"\", \"print_hide\": 0}, {\"fieldname\": \"start_time\", \"print_width\": \"\", \"print_hide\": 0}, {\"fieldname\": \"stop_time\", \"print_width\": \"\", \"print_hide\": 0}, {\"fieldname\": \"length\", \"print_width\": \"\", \"print_hide\": 0}, {\"fieldname\": \"role\", \"print_width\": \"\", \"print_hide\": 0}]}]",
+ "format_data": "[{\"fieldname\": \"print_heading_template\", \"fieldtype\": \"Custom HTML\", \"options\": \"<div class=\\\"print-heading\\\">\\t\\t\\t\\t<h2><div>Spotting Notes</div><small class=\\\"sub-heading\\\">{{ doc.name }}</small>\\t\\t\\t\\t</h2></div>\"}, {\"fieldtype\": \"Section Break\", \"label\": \"\"}, {\"fieldtype\": \"Column Break\"}, {\"fieldname\": \"production_id\", \"print_hide\": 0, \"label\": \"Production Title\"}, {\"fieldname\": \"composer\", \"print_hide\": 0, \"label\": \"Composer\"}, {\"fieldtype\": \"Column Break\"}, {\"fieldname\": \"music_editor\", \"print_hide\": 0, \"label\": \"Music Editor\"}, {\"fieldtype\": \"Section Break\", \"label\": \"Production Information\"}, {\"fieldtype\": \"Column Break\"}, {\"fieldname\": \"duration\", \"print_hide\": 0, \"label\": \"Production Duration\"}, {\"fieldname\": \"music_duration\", \"print_hide\": 0, \"label\": \"Total Music Duration\"}, {\"fieldname\": \"episode_title\", \"print_hide\": 0, \"label\": \"Episode Title\"}, {\"fieldtype\": \"Column Break\"}, {\"fieldname\": \"category\", \"print_hide\": 0, \"label\": \"Category\"}, {\"fieldname\": \"version\", \"print_hide\": 0, \"label\": \"Version\"}, {\"fieldname\": \"episode_number\", \"print_hide\": 0, \"label\": \"Episode Number\"}, {\"fieldtype\": \"Section Break\", \"label\": \"Director\"}, {\"fieldtype\": \"Column Break\"}, {\"fieldname\": \"director_name\", \"print_hide\": 0, \"label\": \"Name\"}, {\"fieldname\": \"director_email\", \"print_hide\": 0, \"label\": \"Email\"}, {\"fieldtype\": \"Column Break\"}, {\"fieldname\": \"director_phone\", \"print_hide\": 0, \"label\": \"Phone\"}, {\"fieldname\": \"director_mobile\", \"print_hide\": 0, \"label\": \"Mobile Phone\"}, {\"fieldtype\": \"Section Break\", \"label\": \"Cue Information\"}, {\"fieldtype\": \"Column Break\"}, {\"fieldname\": \"cues\", \"print_hide\": 0, \"label\": \"Cues\", \"visible_columns\": [{\"fieldname\": \"cue_no\", \"print_width\": \"\", \"print_hide\": 0}, {\"fieldname\": \"start_time\", \"print_width\": \"\", \"print_hide\": 0}, {\"fieldname\": \"stop_time\", \"print_width\": \"\", \"print_hide\": 0}, {\"fieldname\": \"description\", \"print_width\": \"\", \"print_hide\": 0}]}]",
  "idx": 0,
  "line_breaks": 0,
- "modified": "2021-10-17 13:12:51.065764",
+ "modified": "2021-10-18 13:04:31.370663",
  "modified_by": "Administrator",
  "module": "Music Composition",
  "name": "Spotting Notes",
@@ -20,6 +20,6 @@
  "print_format_builder": 0,
  "print_format_type": "Jinja",
  "raw_printing": 0,
- "show_section_headings": 0,
+ "show_section_headings": 1,
  "standard": "Yes"
 }

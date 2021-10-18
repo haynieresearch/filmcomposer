@@ -42,6 +42,7 @@
    "reqd": 1
   },
   {
+   "collapsible": 1,
    "fieldname": "production_information_section",
    "fieldtype": "Section Break",
    "label": "Production Information"
@@ -160,7 +161,8 @@
    "fieldname": "spotting_notes_id",
    "fieldtype": "Link",
    "label": "Spotting Notes",
-   "options": "Spotting Notes"
+   "options": "Spotting Notes",
+   "print_hide": 1
   },
   {
    "fieldname": "column_break_2",
@@ -169,7 +171,7 @@
  ],
  "is_submittable": 1,
  "links": [],
- "modified": "2021-10-18 12:05:08.387464",
+ "modified": "2021-10-18 12:59:17.207813",
  "modified_by": "Administrator",
  "module": "Rights Management",
  "name": "Cue Sheet",

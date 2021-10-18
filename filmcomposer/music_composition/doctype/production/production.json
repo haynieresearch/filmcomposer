@@ -9,9 +9,11 @@
  "engine": "InnoDB",
  "field_order": [
   "production_id",
-  "score_status",
+  "status",
+  "deadline",
   "column_break_0",
-  "company",
+  "score_company",
+  "status_date",
   "production_information_section",
   "production_aka",
   "duration",
@@ -111,11 +113,13 @@
    "label": "Email"
   },
   {
+   "collapsible": 1,
    "fieldname": "producer_section",
    "fieldtype": "Section Break",
    "label": "Producer"
   },
   {
+   "collapsible": 1,
    "fieldname": "director_section",
    "fieldtype": "Section Break",
    "label": "Director"
@@ -156,11 +160,13 @@
    "unique": 1
   },
   {
+   "collapsible": 1,
    "fieldname": "production_information_section",
    "fieldtype": "Section Break",
    "label": "Production Information"
   },
   {
+   "collapsible": 1,
    "fieldname": "production_company_section",
    "fieldtype": "Section Break",
    "label": "Production Company"
@@ -218,21 +224,32 @@
    "label": "Production Title AKA(s)"
   },
   {
-   "default": "Commission",
-   "fieldname": "score_status",
-   "fieldtype": "Select",
-   "label": "Score Status",
-   "options": "Commission\nSpotting\nTheme Suite\nRevisions\nApproval\nProduction\nMixing\nMastering\nCompleted"
-  },
-  {
    "fieldname": "column_break_0",
    "fieldtype": "Column Break"
   },
   {
-   "fieldname": "company",
+   "default": "Commission",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Commission\nSpotting\nTheme Suite\nRevisions\nApproval\nProduction\nMixing\nMastering\nCompleted"
+  },
+  {
+   "fieldname": "deadline",
+   "fieldtype": "Date",
+   "label": "Deadline"
+  },
+  {
+   "fieldname": "status_date",
+   "fieldtype": "Date",
+   "label": "Status Date"
+  },
+  {
+   "fieldname": "score_company",
    "fieldtype": "Link",
-   "label": "Company",
+   "label": "Score Company",
    "options": "Company",
+   "remember_last_selected_value": 1,
    "reqd": 1
   }
  ],
@@ -246,7 +263,7 @@
    "link_fieldname": "production_id"
   }
  ],
- "modified": "2021-10-18 10:36:00.585086",
+ "modified": "2021-10-18 12:56:31.227654",
  "modified_by": "Administrator",
  "module": "Music Composition",
  "name": "Production",
@@ -262,6 +279,17 @@
    "read": 1,
    "report": 1,
    "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Employee",
    "share": 1,
    "write": 1
   }
