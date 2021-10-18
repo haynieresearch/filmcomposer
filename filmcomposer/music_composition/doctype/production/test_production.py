@@ -4,5 +4,5 @@
 # import frappe
 import unittest
 
-class TestSpottingNote(unittest.TestCase):
+class TestProduction(unittest.TestCase):
 	pass

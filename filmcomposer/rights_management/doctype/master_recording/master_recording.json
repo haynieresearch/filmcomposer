@@ -1,8 +1,7 @@
 {
  "actions": [],
  "allow_import": 1,
- "allow_rename": 1,
- "autoname": "naming_series:",
+ "autoname": "hash",
  "creation": "2021-10-17 00:18:39.746232",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -11,12 +10,13 @@
   "track_name",
   "isrc",
   "composition_owner",
-  "storage_url",
+  "cue_id",
+  "production_id",
   "column_break_4",
   "composer",
   "catalog_no",
   "master_recording_owner",
-  "naming_series"
+  "storage_url"
  ],
  "fields": [
   {
@@ -71,19 +71,25 @@
    "options": "Company"
   },
   {
-   "fieldname": "naming_series",
-   "fieldtype": "Select",
-   "hidden": 1,
-   "label": "Master ID",
-   "options": "MR-.#########."
+   "fieldname": "cue_id",
+   "fieldtype": "Link",
+   "label": "Cue ID",
+   "options": "Cues"
+  },
+  {
+   "fieldname": "production_id",
+   "fieldtype": "Link",
+   "label": "Production",
+   "options": "Production"
   }
  ],
  "links": [],
- "modified": "2021-10-17 11:52:51.447561",
+ "modified": "2021-10-17 18:46:18.407107",
  "modified_by": "Administrator",
  "module": "Rights Management",
  "name": "Master Recording",
- "naming_rule": "By \"Naming Series\" field",
+ "name_case": "UPPER CASE",
+ "naming_rule": "Random",
  "owner": "Administrator",
  "permissions": [
   {

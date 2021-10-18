@@ -1,0 +1,112 @@
+{
+ "actions": [],
+ "autoname": "hash",
+ "creation": "2021-10-18 10:41:21.302189",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "cue_id",
+  "cue_no",
+  "cue_title",
+  "usage",
+  "start_time",
+  "stop_time",
+  "duration",
+  "role",
+  "composer",
+  "publisher",
+  "pro",
+  "shares"
+ ],
+ "fields": [
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "cue_id",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Cue ID",
+   "options": "Cue"
+  },
+  {
+   "fetch_from": "cue_id.cue_id",
+   "fieldname": "cue_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Cue #",
+   "read_only": 1
+  },
+  {
+   "fieldname": "cue_title",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Cue Title"
+  },
+  {
+   "fieldname": "usage",
+   "fieldtype": "Select",
+   "label": "Usage",
+   "options": "BI\nBV\nVI\nVV\nMT\nET\nLogo"
+  },
+  {
+   "fieldname": "start_time",
+   "fieldtype": "Duration",
+   "hide_days": 1,
+   "in_list_view": 1,
+   "label": "Time In"
+  },
+  {
+   "fieldname": "stop_time",
+   "fieldtype": "Duration",
+   "hide_days": 1,
+   "in_list_view": 1,
+   "label": "Time Out"
+  },
+  {
+   "fieldname": "duration",
+   "fieldtype": "Duration",
+   "hide_days": 1,
+   "label": "Duration"
+  },
+  {
+   "fieldname": "role",
+   "fieldtype": "Select",
+   "label": "Role",
+   "options": "Composer\nPublisher\nArranger"
+  },
+  {
+   "fieldname": "composer",
+   "fieldtype": "Data",
+   "label": "Composer"
+  },
+  {
+   "fieldname": "publisher",
+   "fieldtype": "Data",
+   "label": "Publisher"
+  },
+  {
+   "fieldname": "pro",
+   "fieldtype": "Select",
+   "label": "PRO",
+   "options": "BMI\nASCAP"
+  },
+  {
+   "fieldname": "shares",
+   "fieldtype": "Percent",
+   "label": "Shares",
+   "precision": "0"
+  }
+ ],
+ "istable": 1,
+ "links": [],
+ "modified": "2021-10-18 12:03:57.304794",
+ "modified_by": "Administrator",
+ "module": "Rights Management",
+ "name": "Cue Sheet Cues",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

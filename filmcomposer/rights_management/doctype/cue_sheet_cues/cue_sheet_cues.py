@@ -4,5 +4,5 @@
 # import frappe
 from frappe.model.document import Document
 
-class SpottingNote(Document):
+class CueSheetCues(Document):
 	pass

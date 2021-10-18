@@ -1,0 +1,272 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:production_id",
+ "creation": "2021-10-17 14:46:59.986643",
+ "doctype": "DocType",
+ "document_type": "Document",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "production_id",
+  "score_status",
+  "column_break_0",
+  "company",
+  "production_information_section",
+  "production_aka",
+  "duration",
+  "music_duration",
+  "production_number",
+  "column_break_1",
+  "source",
+  "category",
+  "version",
+  "episode_title",
+  "episode_number",
+  "production_company_section",
+  "legal_name",
+  "addr_1",
+  "city",
+  "column_break_2",
+  "dba",
+  "addr_2",
+  "state",
+  "producer_section",
+  "producer",
+  "producer_email",
+  "column_break_3",
+  "producer_phone",
+  "producer_mobile",
+  "director_section",
+  "director_name",
+  "director_email",
+  "column_break_4",
+  "director_phone",
+  "director_mobile"
+ ],
+ "fields": [
+  {
+   "fieldname": "source",
+   "fieldtype": "Data",
+   "label": "Network/Source"
+  },
+  {
+   "fieldname": "duration",
+   "fieldtype": "Duration",
+   "hide_days": 1,
+   "in_list_view": 1,
+   "label": "Production Duration"
+  },
+  {
+   "fieldname": "music_duration",
+   "fieldtype": "Duration",
+   "hide_days": 1,
+   "label": "Total Music Duration"
+  },
+  {
+   "default": "Movie",
+   "fieldname": "category",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Category",
+   "options": "Arts\nBroadcast\nBroadcast Series\nCartoon\nCartoon Series\nChildren's Show\nChildren's Special\nCinema\nDaytime Soap\nEntertainment News\nFinance\nFirst Run Syndicated\nGame Show\nHealth\nHobbies/Craft\nInstructional\nMagazine News\nMini-Series\nMovie\nShort Film\nMusic\nMusic Special\nMusic Video\nMusic Video Series\nNews\nNon Broadcast\nNon Broadcast Series\nNovela\nPaid Programs\nPelicula\nPlay-off Sport\nPseudo-Sport\nReality\nReligious\nReligious Special\nSeasonal Special\nSeries\nSpecial\nSporting Event\nSports\nSports Anthology\nSports Related\nTalk Show\nTeam vs. Team Sport\nTheme Park\nTheme Park Series\nTrailer\nTV Movie",
+   "reqd": 1
+  },
+  {
+   "default": "Theatrical",
+   "fieldname": "version",
+   "fieldtype": "Select",
+   "label": "Version",
+   "options": "Airline\nCable\nEdited for TV\nHome Video\nInternet\nMusic Video\nNetwork\nNew Media\nNon Broadcast\nNon US\nPBS\nSyndicated\nTheatrical\nTheme Park\nUS\nFestival Circuit\nUnknown",
+   "reqd": 1
+  },
+  {
+   "fieldname": "episode_title",
+   "fieldtype": "Data",
+   "label": "Episode Title"
+  },
+  {
+   "fieldname": "episode_number",
+   "fieldtype": "Data",
+   "label": "Episode Number"
+  },
+  {
+   "fieldname": "production_number",
+   "fieldtype": "Data",
+   "label": "Production Number"
+  },
+  {
+   "fieldname": "producer",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "producer_phone",
+   "fieldtype": "Data",
+   "label": "Phone"
+  },
+  {
+   "fieldname": "producer_email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "producer_section",
+   "fieldtype": "Section Break",
+   "label": "Producer"
+  },
+  {
+   "fieldname": "director_section",
+   "fieldtype": "Section Break",
+   "label": "Director"
+  },
+  {
+   "fieldname": "director_name",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "director_email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "director_phone",
+   "fieldtype": "Data",
+   "label": "Phone"
+  },
+  {
+   "fieldname": "producer_mobile",
+   "fieldtype": "Data",
+   "label": "Mobile Phone"
+  },
+  {
+   "fieldname": "director_mobile",
+   "fieldtype": "Data",
+   "label": "Mobile Phone"
+  },
+  {
+   "fieldname": "production_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Production Title",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "production_information_section",
+   "fieldtype": "Section Break",
+   "label": "Production Information"
+  },
+  {
+   "fieldname": "production_company_section",
+   "fieldtype": "Section Break",
+   "label": "Production Company"
+  },
+  {
+   "fieldname": "legal_name",
+   "fieldtype": "Data",
+   "label": "Legal Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "addr_1",
+   "fieldtype": "Data",
+   "label": "Address 1"
+  },
+  {
+   "fieldname": "city",
+   "fieldtype": "Data",
+   "label": "City"
+  },
+  {
+   "fieldname": "dba",
+   "fieldtype": "Data",
+   "label": "d/b/a"
+  },
+  {
+   "fieldname": "addr_2",
+   "fieldtype": "Data",
+   "label": "Address 2"
+  },
+  {
+   "fieldname": "state",
+   "fieldtype": "Data",
+   "label": "State"
+  },
+  {
+   "fieldname": "column_break_1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "production_aka",
+   "fieldtype": "Data",
+   "label": "Production Title AKA(s)"
+  },
+  {
+   "default": "Commission",
+   "fieldname": "score_status",
+   "fieldtype": "Select",
+   "label": "Score Status",
+   "options": "Commission\nSpotting\nTheme Suite\nRevisions\nApproval\nProduction\nMixing\nMastering\nCompleted"
+  },
+  {
+   "fieldname": "column_break_0",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company",
+   "reqd": 1
+  }
+ ],
+ "links": [
+  {
+   "link_doctype": "Spotting Notes",
+   "link_fieldname": "production_id"
+  },
+  {
+   "link_doctype": "Cue Sheet",
+   "link_fieldname": "production_id"
+  }
+ ],
+ "modified": "2021-10-18 10:36:00.585086",
+ "modified_by": "Administrator",
+ "module": "Music Composition",
+ "name": "Production",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

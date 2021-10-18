@@ -1,0 +1,52 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "hash",
+ "creation": "2021-10-17 22:29:09.326298",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "production_id",
+  "cue_id"
+ ],
+ "fields": [
+  {
+   "fieldname": "production_id",
+   "fieldtype": "Link",
+   "label": "Production",
+   "options": "Production"
+  },
+  {
+   "fieldname": "cue_id",
+   "fieldtype": "Data",
+   "label": "Cue ID"
+  }
+ ],
+ "links": [],
+ "modified": "2021-10-18 10:02:06.048313",
+ "modified_by": "Administrator",
+ "module": "Music Composition",
+ "name": "Cue",
+ "name_case": "UPPER CASE",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "title_field": "cue_id",
+ "track_changes": 1
+}
