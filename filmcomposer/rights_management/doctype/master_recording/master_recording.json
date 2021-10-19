@@ -17,6 +17,7 @@
   "catalog_no",
   "master_recording_owner",
   "storage_url",
+  "production_project",
   "album_art"
  ],
  "fields": [
@@ -92,13 +93,19 @@
    "label": "Album Art",
    "print_hide": 1,
    "report_hide": 1
+  },
+  {
+   "fieldname": "production_project",
+   "fieldtype": "Link",
+   "label": "Production Music Project",
+   "options": "Production Music Project"
   }
  ],
  "icon": "fa fa-music",
  "image_field": "album_art",
  "links": [],
- "migration_hash": "c579064b6ac242fcb0cc27252ce038f5",
- "modified": "2021-10-18 22:57:38.677799",
+ "migration_hash": "a7d85b789902a24825952213a38f0c6f",
+ "modified": "2021-10-19 13:14:37.198528",
  "modified_by": "Administrator",
  "module": "Rights Management",
  "name": "Master Recording",
