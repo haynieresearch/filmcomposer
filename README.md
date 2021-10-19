@@ -8,12 +8,12 @@ For larger productions, you can skip the Cue Sheet process. For smaller/independ
 ## REQUIREMENTS
 You will need to have a ERPNext](https://github.com/frappe/erpnext) server installed for this to work. Generally speaking, this will be a Linux box with Python installed. If you follow the instructions, it will setup everything for you. You can choose to use a locally installed MySQL server, or an external source.
 
-## Setup
+## SETUP
 bench get-app filmcomposer https://github.com/haynieresearch/filmcomposer.git  
 bench --site [site-name] install-app filmcomposer  
 bench migrate && bench build && bench clear-cache  
 
-## Update
+## UPDATE
 bench update  
 bench migrate && bench build && bench clear-cache
 
@@ -39,7 +39,7 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 
-## Screenshots
+## SCREENSHOTS
 
 ### Workspace Home
 Here you can access all the features in one spot.
