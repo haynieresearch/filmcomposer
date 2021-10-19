@@ -2,14 +2,13 @@
 Film Composer
 
 ### Setup
-bench get-app filmcomposer https://github.com/haynieresearch/filmcomposer.git\
-
-bench --site [site-name] install-app filmcomposer\
-bench migrate && bench build && bench clear-cache
+bench get-app filmcomposer https://github.com/haynieresearch/filmcomposer.git  
+bench --site [site-name] install-app filmcomposer  
+bench migrate && bench build && bench clear-cache  
 
 ### Update
-bench update
-bench migrate && bench build && bench clear-cache
+bench update  
+bench migrate && bench build && bench clear-cache  
 
 ![Screenshot](https://raw.githubusercontent.com/haynieresearch/filmcomposer/master/screenshots/screenshot01.png)
 ![Screenshot](https://raw.githubusercontent.com/haynieresearch/filmcomposer/master/screenshots/screenshot02.png)
