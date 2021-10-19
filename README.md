@@ -6,7 +6,7 @@ Production Information -> Spotting Notes -> Sketches -> Cue Sheet -> Master Reco
 For larger productions, you can skip the Cue Sheet process. For smaller/independent projects that are not as familiar with what a Cue Sheet is or what to do with it, it makes it easier to generate one for them since you will have all the data handy.
 
 ## REQUIREMENTS
-You will need to have a ERPNext](https://github.com/frappe/erpnext) server installed for this to work. Generally speaking, this will be a Linux box with Python installed. If you follow the instructions, it will setup everything for you. You can choose to use a locally installed MySQL server, or an external source.
+You will need to have a [ERPNext](https://github.com/frappe/erpnext) server installed for this to work. Generally speaking, this will be a Linux box with Python installed. If you follow the instructions, it will setup everything for you. You can choose to use a locally installed MySQL server, or an external source.
 
 ## SETUP
 bench get-app filmcomposer https://github.com/haynieresearch/filmcomposer.git  
