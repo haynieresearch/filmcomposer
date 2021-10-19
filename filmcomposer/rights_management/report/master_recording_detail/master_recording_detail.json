@@ -10,7 +10,7 @@
  "idx": 0,
  "is_standard": "Yes",
  "json": "{\"filters\":[],\"fields\":[[\"name\",\"Master Recording\"],[\"track_name\",\"Master Recording\"],[\"isrc\",\"Master Recording\"],[\"catalog_no\",\"Master Recording\"],[\"composer\",\"Master Recording\"],[\"cue_id\",\"Master Recording\"],[\"production_id\",\"Master Recording\"]],\"order_by\":\"`tabMaster Recording`.`creation` desc\",\"add_totals_row\":0,\"page_length\":20,\"column_widths\":{\"name\":120,\"track_name\":120,\"isrc\":120,\"catalog_no\":120,\"composer\":120,\"cue_id\":120,\"production_id\":120},\"group_by\":null}",
- "letter_head": "BiffCo Enterprises",
+ "letter_head": "",
  "modified": "2021-10-18 15:02:27.866152",
  "modified_by": "Administrator",
  "module": "Rights Management",
