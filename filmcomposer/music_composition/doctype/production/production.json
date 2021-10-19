@@ -102,17 +102,20 @@
   {
    "fieldname": "producer",
    "fieldtype": "Data",
-   "label": "Name"
+   "label": "Name",
+   "options": "Name"
   },
   {
    "fieldname": "producer_phone",
    "fieldtype": "Data",
-   "label": "Phone"
+   "label": "Phone",
+   "options": "Phone"
   },
   {
    "fieldname": "producer_email",
    "fieldtype": "Data",
-   "label": "Email"
+   "label": "Email",
+   "options": "Email"
   },
   {
    "collapsible": 1,
@@ -129,27 +132,32 @@
   {
    "fieldname": "director_name",
    "fieldtype": "Data",
-   "label": "Name"
+   "label": "Name",
+   "options": "Name"
   },
   {
    "fieldname": "director_email",
    "fieldtype": "Data",
-   "label": "Email"
+   "label": "Email",
+   "options": "Email"
   },
   {
    "fieldname": "director_phone",
    "fieldtype": "Data",
-   "label": "Phone"
+   "label": "Phone",
+   "options": "Phone"
   },
   {
    "fieldname": "producer_mobile",
    "fieldtype": "Data",
-   "label": "Mobile Phone"
+   "label": "Mobile Phone",
+   "options": "Phone"
   },
   {
    "fieldname": "director_mobile",
    "fieldtype": "Data",
-   "label": "Mobile Phone"
+   "label": "Mobile Phone",
+   "options": "Phone"
   },
   {
    "fieldname": "production_id",
@@ -279,7 +287,8 @@
    "link_fieldname": "production_id"
   }
  ],
- "modified": "2021-10-18 20:06:48.182684",
+ "migration_hash": "f1f5c307ef5a620e29c69b3af833c014",
+ "modified": "2021-10-18 22:53:57.086822",
  "modified_by": "Administrator",
  "module": "Music Composition",
  "name": "Production",

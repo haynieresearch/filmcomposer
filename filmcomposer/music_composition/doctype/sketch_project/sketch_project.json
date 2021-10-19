@@ -102,12 +102,14 @@
    "fieldname": "director_name",
    "fieldtype": "Data",
    "label": "Name",
+   "options": "Name",
    "read_only": 1
   },
   {
    "fieldname": "director_email",
    "fieldtype": "Data",
    "label": "Email",
+   "options": "Email",
    "read_only": 1
   },
   {
@@ -118,12 +120,14 @@
    "fieldname": "director_phone",
    "fieldtype": "Data",
    "label": "Phone",
+   "options": "Phone",
    "read_only": 1
   },
   {
    "fieldname": "director_mobile",
    "fieldtype": "Data",
    "label": "Mobile Phone",
+   "options": "Phone",
    "read_only": 1
   },
   {
@@ -144,7 +148,8 @@
   }
  ],
  "links": [],
- "modified": "2021-10-18 19:05:37.121456",
+ "migration_hash": "c78c2edec8219c0053d26aa18c6d5d5f",
+ "modified": "2021-10-18 22:55:11.723995",
  "modified_by": "Administrator",
  "module": "Music Composition",
  "name": "Sketch Project",

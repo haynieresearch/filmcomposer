@@ -44,7 +44,8 @@
    "fieldname": "storage_url",
    "fieldtype": "Data",
    "label": "Remote Storage",
-   "length": 500
+   "length": 500,
+   "options": "URL"
   },
   {
    "fieldname": "column_break_4",
@@ -56,6 +57,7 @@
    "in_list_view": 1,
    "in_preview": 1,
    "label": "Composer(s)",
+   "options": "Name",
    "reqd": 1
   },
   {
@@ -95,7 +97,8 @@
  "icon": "fa fa-music",
  "image_field": "album_art",
  "links": [],
- "modified": "2021-10-18 20:06:33.746160",
+ "migration_hash": "c579064b6ac242fcb0cc27252ce038f5",
+ "modified": "2021-10-18 22:57:38.677799",
  "modified_by": "Administrator",
  "module": "Rights Management",
  "name": "Master Recording",

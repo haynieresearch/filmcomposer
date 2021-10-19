@@ -182,7 +182,8 @@
   {
    "fieldname": "prepared_by",
    "fieldtype": "Data",
-   "label": "Prepared By"
+   "label": "Prepared By",
+   "options": "Name"
   },
   {
    "fieldname": "date",
@@ -196,7 +197,8 @@
   {
    "fieldname": "email",
    "fieldtype": "Data",
-   "label": "Email Address"
+   "label": "Email Address",
+   "options": "Email"
   },
   {
    "fieldname": "prepared_company",
@@ -207,7 +209,8 @@
  ],
  "is_submittable": 1,
  "links": [],
- "modified": "2021-10-18 19:06:25.380106",
+ "migration_hash": "85323e7ccb98e48a8b9921e46c8d5cf9",
+ "modified": "2021-10-18 22:57:05.382403",
  "modified_by": "Administrator",
  "module": "Rights Management",
  "name": "Cue Sheet",

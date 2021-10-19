@@ -101,12 +101,14 @@
    "fieldname": "director_name",
    "fieldtype": "Data",
    "label": "Name",
+   "options": "Name",
    "read_only": 1
   },
   {
    "fieldname": "director_email",
    "fieldtype": "Data",
    "label": "Email",
+   "options": "Email",
    "read_only": 1
   },
   {
@@ -117,12 +119,14 @@
    "fieldname": "director_phone",
    "fieldtype": "Data",
    "label": "Phone",
+   "options": "Phone",
    "read_only": 1
   },
   {
    "fieldname": "director_mobile",
    "fieldtype": "Data",
    "label": "Mobile Phone",
+   "options": "Phone",
    "read_only": 1
   },
   {
@@ -144,12 +148,14 @@
   {
    "fieldname": "composer",
    "fieldtype": "Data",
-   "label": "Composer"
+   "label": "Composer",
+   "options": "Name"
   },
   {
    "fieldname": "music_editor",
    "fieldtype": "Data",
-   "label": "Music Editor"
+   "label": "Music Editor",
+   "options": "Name"
   },
   {
    "fieldname": "column_break_0",
@@ -167,7 +173,8 @@
  ],
  "is_submittable": 1,
  "links": [],
- "modified": "2021-10-18 19:05:51.149260",
+ "migration_hash": "5e97b9269bad2fe868c72a9d0a5e30c6",
+ "modified": "2021-10-18 22:55:51.086147",
  "modified_by": "Administrator",
  "module": "Music Composition",
  "name": "Spotting Notes",
