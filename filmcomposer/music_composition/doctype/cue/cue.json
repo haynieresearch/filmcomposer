@@ -7,7 +7,9 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
+  "html_1",
   "production_id",
+  "project_id",
   "cue_id"
  ],
  "fields": [
@@ -21,10 +23,22 @@
    "fieldname": "cue_id",
    "fieldtype": "Data",
    "label": "Cue #"
+  },
+  {
+   "fieldname": "project_id",
+   "fieldtype": "Link",
+   "label": "Project",
+   "options": "Production Music Project"
+  },
+  {
+   "fieldname": "html_1",
+   "fieldtype": "HTML",
+   "options": "<h3>Select a Production or Project</h3>\n<p>If you are adding a cue for a in progress production, select a Production. <br>If you are adding a cue for a Production Music Project, select a Project. <br>You will normally not need both.</p>"
   }
  ],
  "links": [],
- "modified": "2021-10-18 15:39:52.873447",
+ "migration_hash": "50d4fa1c1da6041a8a72fc520793b48e",
+ "modified": "2021-10-19 11:23:28.006811",
  "modified_by": "Administrator",
  "module": "Music Composition",
  "name": "Cue",

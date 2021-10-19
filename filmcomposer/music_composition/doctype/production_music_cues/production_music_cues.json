@@ -1,16 +1,15 @@
 {
  "actions": [],
  "autoname": "hash",
- "creation": "2021-10-17 22:23:01.921831",
+ "creation": "2021-10-19 10:30:07.546675",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
   "cue_id",
-  "cue_no",
-  "start_time",
-  "stop_time",
+  "cue_name",
   "emotion",
+  "status",
   "description"
  ],
  "fields": [
@@ -25,26 +24,17 @@
    "unique": 1
   },
   {
-   "fetch_from": "cue_id.cue_id",
-   "fieldname": "cue_no",
+   "fieldname": "cue_name",
    "fieldtype": "Data",
    "in_list_view": 1,
-   "label": "Cue #",
-   "read_only": 1
+   "label": "Cue Name"
   },
   {
-   "fieldname": "start_time",
-   "fieldtype": "Duration",
-   "hide_days": 1,
+   "fieldname": "emotion",
+   "fieldtype": "Select",
    "in_list_view": 1,
-   "label": "Start"
-  },
-  {
-   "fieldname": "stop_time",
-   "fieldtype": "Duration",
-   "hide_days": 1,
-   "in_list_view": 1,
-   "label": "Stop"
+   "label": "Emotion",
+   "options": "Admiration\nAdoration\nAppreciation\nAmusement\nAnger\nAnxiety\nAwe\nAwkwardness\nBoredom\nCalmness\nConfusion\nCraving\nDisgust\nEmpathic\nEntrancement\nExcitement\nFear\nHorror\nInterest\nJoy\nNostalgia\nRelief\nSadness\nSatisfaction\nSurprise"
   },
   {
    "fieldname": "description",
@@ -53,20 +43,19 @@
    "label": "Description"
   },
   {
-   "fieldname": "emotion",
+   "fieldname": "status",
    "fieldtype": "Select",
-   "in_list_view": 1,
-   "label": "Emotion",
-   "options": "Admiration\nAdoration\nAppreciation\nAmusement\nAnger\nAnxiety\nAwe\nAwkwardness\nBoredom\nCalmness\nConfusion\nCraving\nDisgust\nEmpathic\nEntrancement\nExcitement\nFear\nHorror\nInterest\nJoy\nNostalgia\nRelief\nSadness\nSatisfaction\nSurprise"
+   "label": "Status",
+   "options": "Research\nProduction\nMixing\nMastering\nCompleted"
   }
  ],
  "istable": 1,
  "links": [],
  "migration_hash": "a3a146a949357a204f334e7e665d8e94",
- "modified": "2021-10-19 11:00:46.785451",
+ "modified": "2021-10-19 11:24:50.202705",
  "modified_by": "Administrator",
  "module": "Music Composition",
- "name": "Spotting Notes Cues",
+ "name": "Production Music Cues",
  "naming_rule": "Random",
  "owner": "Administrator",
  "permissions": [],
