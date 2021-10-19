@@ -84,7 +84,7 @@
   }
  ],
  "links": [],
- "modified": "2021-10-18 15:34:55.833125",
+ "modified": "2021-10-18 19:06:16.461683",
  "modified_by": "Administrator",
  "module": "Rights Management",
  "name": "Master Recording",
@@ -118,7 +118,7 @@
   }
  ],
  "search_fields": "track_name, isrc, catalog_no, composer",
- "sort_field": "creation",
+ "sort_field": "modified",
  "sort_order": "DESC",
  "title_field": "track_name",
  "track_changes": 1

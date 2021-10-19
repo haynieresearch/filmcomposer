@@ -267,7 +267,7 @@
    "link_fieldname": "production_id"
   }
  ],
- "modified": "2021-10-18 16:29:01.067093",
+ "modified": "2021-10-18 19:05:28.241987",
  "modified_by": "Administrator",
  "module": "Music Composition",
  "name": "Production",
@@ -298,7 +298,7 @@
    "write": 1
   }
  ],
- "sort_field": "creation",
+ "sort_field": "modified",
  "sort_order": "DESC",
  "track_changes": 1
 }

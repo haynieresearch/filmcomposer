@@ -207,7 +207,7 @@
  ],
  "is_submittable": 1,
  "links": [],
- "modified": "2021-10-18 15:33:10.143113",
+ "modified": "2021-10-18 19:06:25.380106",
  "modified_by": "Administrator",
  "module": "Rights Management",
  "name": "Cue Sheet",
@@ -240,7 +240,7 @@
    "write": 1
   }
  ],
- "sort_field": "creation",
+ "sort_field": "modified",
  "sort_order": "DESC",
  "title_field": "production_id",
  "track_changes": 1
