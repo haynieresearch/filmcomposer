@@ -258,7 +258,9 @@
    "fieldname": "production_img",
    "fieldtype": "Attach Image",
    "hidden": 1,
-   "label": "Production Image"
+   "label": "Production Image",
+   "print_hide": 1,
+   "report_hide": 1
   }
  ],
  "icon": "fa fa-music",
@@ -277,7 +279,7 @@
    "link_fieldname": "production_id"
   }
  ],
- "modified": "2021-10-18 20:03:00.281321",
+ "modified": "2021-10-18 20:06:48.182684",
  "modified_by": "Administrator",
  "module": "Music Composition",
  "name": "Production",

@@ -87,13 +87,15 @@
    "fieldname": "album_art",
    "fieldtype": "Attach Image",
    "hidden": 1,
-   "label": "Album Art"
+   "label": "Album Art",
+   "print_hide": 1,
+   "report_hide": 1
   }
  ],
  "icon": "fa fa-music",
  "image_field": "album_art",
  "links": [],
- "modified": "2021-10-18 20:03:43.070217",
+ "modified": "2021-10-18 20:06:33.746160",
  "modified_by": "Administrator",
  "module": "Rights Management",
  "name": "Master Recording",
