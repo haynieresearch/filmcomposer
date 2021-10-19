@@ -5,19 +5,45 @@ Production Information -> Spotting Notes -> Sketches -> Cue Sheet -> Master Reco
 
 For larger productions, you can skip the Cue Sheet process. For smaller/independent projects that are not as familiar with what a Cue Sheet is or what to do with it, it makes it easier to generate one for them since you will have all the data handy.
 
-### Setup
+## REQUIREMENTS
+You will need to have a ERPNext](https://github.com/frappe/erpnext) server installed for this to work. Generally speaking, this will be a Linux box with Python installed. If you follow the instructions, it will setup everything for you. You can choose to use a locally installed MySQL server, or an external source.
+
+## Setup
 bench get-app filmcomposer https://github.com/haynieresearch/filmcomposer.git  
 bench --site [site-name] install-app filmcomposer  
 bench migrate && bench build && bench clear-cache  
 
-### Update
+## Update
 bench update  
-bench migrate && bench build && bench clear-cache  
+bench migrate && bench build && bench clear-cache
+
+## IN PROGRESS
+Please note this is still very much an in progress application and not considered mature at this point.
+
+## GOAL
+The overall goal of this project is to make it easier for Film Composers to track their work/projects and the output they deliver. ERPNext is an excellent framework for this project due to the built in functionality for managing your business. The idea being, all of your business from accounting, to HR, and the core composer work can be done in one single application.
+
+## LICENSE
+Copyright (c) 2021 Haynie IPHC, LLC\
+Developed by Haynie Research & Development, LLC for Lance Haynie, LLC under license.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+<http://www.apache.org/licenses/LICENSE-2.0>
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+## Screenshots
 
 ### Workspace Home
 Here you can access all the features in one spot.
 ![Screenshot](https://raw.githubusercontent.com/haynieresearch/filmcomposer/master/screenshots/screenshot01.png)  
-
 
 ### Production
 This is where you will start, enter all of the production information. Once you have saved a production the easiest way to move into Spotting Notes is to use the "Create Spotting Notes" button in the upper right. The required information will transition from the Production to the Spotting Notes.
