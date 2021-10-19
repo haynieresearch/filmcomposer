@@ -18,7 +18,7 @@ bench update
 bench migrate && bench build && bench clear-cache
 
 ## IN PROGRESS
-Please note this is still very much an in progress application and not considered mature at this point.
+Please note this is still very much an in progress application in active development and not considered mature at this point. If you see anything missing or functionality that should be included, feel free to open an issue.
 
 ## GOAL
 The overall goal of this project is to make it easier for Film Composers to track their work/projects and the output they deliver. ERPNext is an excellent framework for this project due to the built in functionality for managing your business. The idea being, all of your business from accounting, to HR, and the core composer work can be done in one single application.
