@@ -257,6 +257,7 @@
   {
    "fieldname": "production_img",
    "fieldtype": "Attach Image",
+   "hidden": 1,
    "label": "Production Image"
   }
  ],
@@ -276,7 +277,7 @@
    "link_fieldname": "production_id"
   }
  ],
- "modified": "2021-10-18 19:40:11.405009",
+ "modified": "2021-10-18 20:03:00.281321",
  "modified_by": "Administrator",
  "module": "Music Composition",
  "name": "Production",

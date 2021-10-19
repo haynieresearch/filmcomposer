@@ -16,7 +16,8 @@
   "composer",
   "catalog_no",
   "master_recording_owner",
-  "storage_url"
+  "storage_url",
+  "album_art"
  ],
  "fields": [
   {
@@ -81,10 +82,18 @@
    "fieldtype": "Link",
    "label": "Cue #",
    "options": "Cue"
+  },
+  {
+   "fieldname": "album_art",
+   "fieldtype": "Attach Image",
+   "hidden": 1,
+   "label": "Album Art"
   }
  ],
+ "icon": "fa fa-music",
+ "image_field": "album_art",
  "links": [],
- "modified": "2021-10-18 19:06:16.461683",
+ "modified": "2021-10-18 20:03:43.070217",
  "modified_by": "Administrator",
  "module": "Rights Management",
  "name": "Master Recording",
@@ -118,6 +127,8 @@
   }
  ],
  "search_fields": "track_name, isrc, catalog_no, composer",
+ "show_name_in_global_search": 1,
+ "show_preview_popup": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
  "title_field": "track_name",
