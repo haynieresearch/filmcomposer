@@ -1,7 +1,7 @@
 # ERPNext Film Composer
 Film Composer is an app designed to be used with [ERPNext](https://github.com/frappe/erpnext) to help manage the film composer business.  
 It follows a general workflow for film composing:  
-Production Information -> Spotting Notes -> Sketches -> Cue Sheet -> Master Recording Details.  
+Production Commission -> Spotting Notes -> Sketches -> Cue Sheet -> Master Recording Details.  
 
 For larger productions, you can skip the Cue Sheet process. For smaller/independent projects that are not as familiar with what a Cue Sheet is or what to do with it, it makes it easier to generate one for them since you will have all the data handy.
 
