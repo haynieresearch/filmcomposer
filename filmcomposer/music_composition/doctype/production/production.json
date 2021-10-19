@@ -1,5 +1,6 @@
 {
  "actions": [],
+ "allow_import": 1,
  "allow_rename": 1,
  "autoname": "field:production_id",
  "creation": "2021-10-17 14:46:59.986643",
@@ -19,6 +20,7 @@
   "duration",
   "music_duration",
   "production_number",
+  "production_img",
   "column_break_1",
   "source",
   "category",
@@ -251,8 +253,15 @@
    "options": "Company",
    "remember_last_selected_value": 1,
    "reqd": 1
+  },
+  {
+   "fieldname": "production_img",
+   "fieldtype": "Attach Image",
+   "label": "Production Image"
   }
  ],
+ "icon": "fa fa-music",
+ "image_field": "production_img",
  "links": [
   {
    "link_doctype": "Spotting Notes",
@@ -267,7 +276,7 @@
    "link_fieldname": "production_id"
   }
  ],
- "modified": "2021-10-18 19:05:28.241987",
+ "modified": "2021-10-18 19:40:11.405009",
  "modified_by": "Administrator",
  "module": "Music Composition",
  "name": "Production",
@@ -298,6 +307,8 @@
    "write": 1
   }
  ],
+ "show_name_in_global_search": 1,
+ "show_preview_popup": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
  "track_changes": 1
