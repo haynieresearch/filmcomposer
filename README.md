@@ -13,6 +13,12 @@ bench get-app filmcomposer https://github.com/haynieresearch/filmcomposer.git
 bench --site [site-name] install-app filmcomposer  
 bench migrate && bench build && bench clear-cache  
 
+If you receive any errors about not being in developer mode:
+bench set-config developer_mode 1  
+bench clear-cache  
+
+Once you are done, you can disable developer mode by changing the 1 to a 0.
+
 ## UPDATE
 bench update  
 bench migrate && bench build && bench clear-cache
