@@ -17,16 +17,51 @@
 //limitations under the License.
 frappe.ui.form.on('Production', {
   refresh: function(frm) {
-      frm.add_custom_button('Create Spotting Notes', () => {
+      frm.add_custom_button('Spotting Notes', () => {
           frappe.new_doc('Spotting Notes', {
               production_id: frm.doc.name,
           })
-      })
-      frm.add_custom_button('Create Cue Sheet', () => {
+      }, __('Create'))
+      frm.add_custom_button('Cue Sheet', () => {
           frappe.new_doc('Cue Sheet', {
               production_id: frm.doc.name
           })
-      })
+      }, __('Create'))
+      frm.add_custom_button('Expense Claim', () => {
+          frappe.new_doc('Expense Claim', {
+              film_production_project: frm.doc.name
+          })
+      }, __('Create'))
+      frm.add_custom_button('Purchase Order', () => {
+          frappe.new_doc('Purchase Order', {
+              film_production_project: frm.doc.name
+          })
+      }, __('Create'))
+      frm.add_custom_button('Purchase Receipt', () => {
+          frappe.new_doc('Purchase Receipt', {
+              film_production_project: frm.doc.name
+          })
+      }, __('Create'))
+      frm.add_custom_button('Purchase Invoice', () => {
+          frappe.new_doc('Purchase Invoice', {
+              film_production_project: frm.doc.name
+          })
+      }, __('Create'))
+      frm.add_custom_button('Sales Order', () => {
+          frappe.new_doc('Sales Order', {
+              film_production_project: frm.doc.name
+          })
+      }, __('Create'))
+      frm.add_custom_button('Sales Invoice', () => {
+          frappe.new_doc('Sales Invoice', {
+              film_production_project: frm.doc.name
+          })
+      }, __('Create'))
+      frm.add_custom_button('Delivery Note', () => {
+          frappe.new_doc('Delivery Note', {
+              film_production_project: frm.doc.name
+          })
+      }, __('Create'))
       frm.add_custom_button(__('Commission'), () => {
         frm.events.set_status(frm, 'Commission');
       }, __('Set Status'))

@@ -36,7 +36,11 @@ fixtures = [
                 "Expense Claim-film_production_project",
                 "Purchase Order-film_production_project",
                 "Sales Order-film_production_project",
-                "Delivery Note-film_production_project"
+                "Delivery Note-film_production_project",
+                "Purchase Invoice-production_music_project",
+                "Purchase Receipt-production_music_project",
+                "Purchase Order-production_music_project",
+                "Expense Claim-production_music_project"
             ]
         ]
     ]}

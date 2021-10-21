@@ -85,9 +85,26 @@
   }
  ],
  "is_submittable": 1,
- "links": [],
- "migration_hash": "a6242c3e536dfe920c2d6f999324e393",
- "modified": "2021-10-21 12:58:25.994943",
+ "links": [
+  {
+   "link_doctype": "Expense Claim",
+   "link_fieldname": "production_music_project"
+  },
+  {
+   "link_doctype": "Purchase Order",
+   "link_fieldname": "production_music_project"
+  },
+  {
+   "link_doctype": "Purchase Receipt",
+   "link_fieldname": "production_music_project"
+  },
+  {
+   "link_doctype": "Purchase Invoice",
+   "link_fieldname": "production_music_project"
+  }
+ ],
+ "migration_hash": "52692b249d22d7b187e3387a407ea5d4",
+ "modified": "2021-10-21 16:45:57.698532",
  "modified_by": "Administrator",
  "module": "Music Composition",
  "name": "Production Music Project",

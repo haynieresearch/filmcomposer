@@ -32,6 +32,26 @@ frappe.ui.form.on('Production Music Project', {
     });
   },
   refresh(frm) {
+    frm.add_custom_button('Expense Claim', () => {
+        frappe.new_doc('Expense Claim', {
+            production_music_project: frm.doc.name
+        })
+    }, __('Create'))
+    frm.add_custom_button('Purchase Order', () => {
+        frappe.new_doc('Purchase Order', {
+            production_music_project: frm.doc.name
+        })
+    }, __('Create'))
+    frm.add_custom_button('Purchase Receipt', () => {
+        frappe.new_doc('Purchase Receipt', {
+            production_music_project: frm.doc.name
+        })
+    }, __('Create'))
+    frm.add_custom_button('Purchase Invoice', () => {
+        frappe.new_doc('Purchase Invoice', {
+            production_music_project: frm.doc.name
+        })
+    }, __('Create'))
     frm.add_custom_button(__('Research'), () => {
       frm.events.set_status(frm, 'Research');
     }, __('Set Status'))
