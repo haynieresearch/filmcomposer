@@ -19,6 +19,9 @@ bench clear-cache
 
 Once you are done, you can disable developer mode by changing the 1 to a 0.
 
+If you somehow get stuck in maintenance mode, run this:  
+bench set-config maintenance_mode 0
+
 ## UPDATE
 bench update  
 bench migrate && bench build && bench clear-cache
