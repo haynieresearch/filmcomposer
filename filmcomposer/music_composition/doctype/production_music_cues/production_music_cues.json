@@ -45,14 +45,15 @@
   {
    "fieldname": "status",
    "fieldtype": "Select",
+   "in_list_view": 1,
    "label": "Status",
-   "options": "Research\nProduction\nMixing\nMastering\nCompleted"
+   "options": "Research\nIn Progress\nMixing\nMastering\nCompleted"
   }
  ],
  "istable": 1,
  "links": [],
  "migration_hash": "a3a146a949357a204f334e7e665d8e94",
- "modified": "2021-10-19 11:24:50.202705",
+ "modified": "2021-10-21 12:58:42.319684",
  "modified_by": "Administrator",
  "module": "Music Composition",
  "name": "Production Music Cues",

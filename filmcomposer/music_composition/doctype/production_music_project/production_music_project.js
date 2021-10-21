@@ -24,5 +24,28 @@ frappe.ui.form.on('Production Music Project', {
     		]
     	}
     });
-	}
+	},
+  set_status: function(frm, status) {
+    frappe.confirm(__('Set Production Music Project and all Cues to status {0}?', [status.bold()]), () => {
+      frappe.xcall('filmcomposer.music_composition.doctype.production_music_project.production_music_project.set_project_status',
+        {production_music_project: frm.doc.name, status: status}).then(() => { window.location.reload(); });
+    });
+  },
+  refresh(frm) {
+    frm.add_custom_button(__('Research'), () => {
+      frm.events.set_status(frm, 'Research');
+    }, __('Set Status'))
+    frm.add_custom_button(__('In Progress'), () => {
+      frm.events.set_status(frm, 'In Progress');
+    }, __('Set Status'))
+    frm.add_custom_button(__('Mixing'), () => {
+      frm.events.set_status(frm, 'Mixing');
+    }, __('Set Status'))
+    frm.add_custom_button(__('Mastering'), () => {
+      frm.events.set_status(frm, 'Mastering');
+    }, __('Set Status'))
+    frm.add_custom_button(__('Completed'), () => {
+      frm.events.set_status(frm, 'Completed');
+    }, __('Set Status'))
+  }
 });

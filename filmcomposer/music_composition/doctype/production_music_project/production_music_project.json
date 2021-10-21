@@ -55,7 +55,7 @@
    "fieldname": "status",
    "fieldtype": "Select",
    "label": "Status",
-   "options": "Research\nProduction\nMixing\nMastering\nCompleted"
+   "options": "Research\nIn Progress\nMixing\nMastering\nCompleted"
   },
   {
    "fieldname": "start_date",
@@ -87,7 +87,7 @@
  "is_submittable": 1,
  "links": [],
  "migration_hash": "a6242c3e536dfe920c2d6f999324e393",
- "modified": "2021-10-19 11:15:14.881148",
+ "modified": "2021-10-21 12:58:25.994943",
  "modified_by": "Administrator",
  "module": "Music Composition",
  "name": "Production Music Project",
