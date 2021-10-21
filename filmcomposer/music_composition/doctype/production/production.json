@@ -46,7 +46,8 @@
   "director_email",
   "column_break_4",
   "director_phone",
-  "director_mobile"
+  "director_mobile",
+  "amended_from"
  ],
  "fields": [
   {
@@ -269,6 +270,15 @@
    "label": "Production Image",
    "print_hide": 1,
    "report_hide": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Production",
+   "print_hide": 1,
+   "read_only": 1
   }
  ],
  "icon": "fa fa-music",
@@ -285,10 +295,38 @@
   {
    "link_doctype": "Cue Sheet",
    "link_fieldname": "production_id"
+  },
+  {
+   "link_doctype": "Expense Claim",
+   "link_fieldname": "film_production_project"
+  },
+  {
+   "link_doctype": "Purchase Order",
+   "link_fieldname": "film_production_project"
+  },
+  {
+   "link_doctype": "Purchase Receipt",
+   "link_fieldname": "film_production_project"
+  },
+  {
+   "link_doctype": "Purchase Invoice",
+   "link_fieldname": "film_production_project"
+  },
+  {
+   "link_doctype": "Sales Order",
+   "link_fieldname": "film_production_project"
+  },
+  {
+   "link_doctype": "Sales Invoice",
+   "link_fieldname": "film_production_project"
+  },
+  {
+   "link_doctype": "Delivery Note",
+   "link_fieldname": "film_production_project"
   }
  ],
- "migration_hash": "f1f5c307ef5a620e29c69b3af833c014",
- "modified": "2021-10-19 00:01:32.874944",
+ "migration_hash": "d39167f7fc693f012423fd760364da09",
+ "modified": "2021-10-21 16:30:17.190369",
  "modified_by": "Administrator",
  "module": "Music Composition",
  "name": "Production",
