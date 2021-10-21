@@ -42,12 +42,13 @@
    "fieldtype": "Select",
    "in_list_view": 1,
    "label": "Status",
-   "options": "Research\nRevision\nApproval\nProduction\nMixing\nMastering\nCompleted"
+   "options": "Research\nRevisions\nApproval\nProduction\nMixing\nMastering\nCompleted"
   }
  ],
  "istable": 1,
  "links": [],
- "modified": "2021-10-18 16:14:40.535708",
+ "migration_hash": "d16cc9d071083d5d3ec71d92df7894a0",
+ "modified": "2021-10-21 12:21:17.398243",
  "modified_by": "Administrator",
  "module": "Music Composition",
  "name": "Sketch Cues",

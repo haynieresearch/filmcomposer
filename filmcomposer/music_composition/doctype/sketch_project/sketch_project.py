@@ -16,6 +16,19 @@
 #See the License for the specific language governing permissions and
 #limitations under the License.
 from frappe.model.document import Document
+import frappe
 
 class SketchProject(Document):
 	pass
+
+@frappe.whitelist()
+def set_project_status(sketch_project, status):
+	sketch_project = frappe.get_doc('Sketch Project', sketch_project)
+	frappe.has_permission(doc = sketch_project, throw = True)
+
+	sketch_project.status = status
+	sketch_project.save()
+
+	for sketch_cues in frappe.get_all('Sketch Cues', dict(parent = sketch_project.name)):
+		frappe.db.update("Sketch Cues", sketch_cues.name, "status", status)
+		frappe.db.commit()

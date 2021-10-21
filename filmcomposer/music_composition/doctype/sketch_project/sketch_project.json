@@ -8,6 +8,7 @@
  "engine": "InnoDB",
  "field_order": [
   "production_id",
+  "status",
   "column_break_0",
   "spotting_notes_id",
   "production_information_section",
@@ -29,6 +30,7 @@
  ],
  "fields": [
   {
+   "default": "Open",
    "fieldname": "production_id",
    "fieldtype": "Link",
    "in_list_view": 1,
@@ -145,11 +147,17 @@
    "fieldtype": "Link",
    "label": "Spotting Notes",
    "options": "Spotting Notes"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Open\nIn Progress\nRevisions\nApproval\nCompleted"
   }
  ],
  "links": [],
- "migration_hash": "c78c2edec8219c0053d26aa18c6d5d5f",
- "modified": "2021-10-18 22:55:11.723995",
+ "migration_hash": "4fbc71f9bc3051a434fc19bdeb3c6f12",
+ "modified": "2021-10-21 11:09:33.327327",
  "modified_by": "Administrator",
  "module": "Music Composition",
  "name": "Sketch Project",
