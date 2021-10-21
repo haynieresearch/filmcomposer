@@ -27,5 +27,38 @@ frappe.ui.form.on('Production', {
               production_id: frm.doc.name
           })
       })
+      frm.add_custom_button(__('Commission'), () => {
+        frm.events.set_status(frm, 'Commission');
+      }, __('Set Status'))
+      frm.add_custom_button(__('Spotting'), () => {
+        frm.events.set_status(frm, 'Spotting');
+      }, __('Set Status'))
+      frm.add_custom_button(__('Theme Suite'), () => {
+        frm.events.set_status(frm, 'Theme Suite');
+      }, __('Set Status'))
+      frm.add_custom_button(__('Revisions'), () => {
+        frm.events.set_status(frm, 'Revisions');
+      }, __('Set Status'))
+      frm.add_custom_button(__('Approval'), () => {
+        frm.events.set_status(frm, 'Approval');
+      }, __('Set Status'))
+      frm.add_custom_button(__('Production'), () => {
+        frm.events.set_status(frm, 'Production');
+      }, __('Set Status'))
+      frm.add_custom_button(__('Mixing'), () => {
+        frm.events.set_status(frm, 'Mixing');
+      }, __('Set Status'))
+      frm.add_custom_button(__('Mastering'), () => {
+        frm.events.set_status(frm, 'Mastering');
+      }, __('Set Status'))
+      frm.add_custom_button(__('Completed'), () => {
+        frm.events.set_status(frm, 'Completed');
+      }, __('Set Status'))
+  },
+  set_status: function(frm, status) {
+    frappe.confirm(__('Set Production status {0}?', [status.bold()]), () => {
+      frappe.xcall('filmcomposer.music_composition.doctype.production.production.set_project_status',
+        {production: frm.doc.name, status: status}).then(() => { window.location.reload(); });
+    });
   }
 });

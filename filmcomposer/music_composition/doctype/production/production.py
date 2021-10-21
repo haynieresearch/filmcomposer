@@ -16,6 +16,14 @@
 #See the License for the specific language governing permissions and
 #limitations under the License.
 from frappe.model.document import Document
+import frappe
 
 class Production(Document):
 	pass
+
+@frappe.whitelist()
+def set_project_status(production, status):
+	production = frappe.get_doc('Production', production)
+	frappe.has_permission(doc = production, throw = True)
+	production.status = status
+	production.save()
