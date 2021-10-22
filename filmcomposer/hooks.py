@@ -31,7 +31,16 @@ fixtures = [
     {"doctype":"Custom Field", "filters": [["name", "like", ("%production_music_project%")]]},
     {"doctype":"Property Setter", "filters": [["name", "like", ("%film_production_project%")]]},
     {"doctype":"Property Setter", "filters": [["name", "like", ("%production_music_project%")]]},
-    {"doctype":"Property Setter", "filters": [["_user_tags", "like", ("%filmcomposer%")]]}
+    {"doctype":"Property Setter", "filters": [["_user_tags", "like", ("%filmcomposer%")]]},
+    {"doctype":"Opportunity", "filters": [["_user_tags", "like", ("%filmcomposer%")]]},
+    {"doctype":"Customer", "filters": [["_user_tags", "like", ("%filmcomposer%")]]},
+    {"doctype":"Expense Claim", "filters": [["_user_tags", "like", ("%filmcomposer%")]]},
+    {"doctype":"Purchase Order", "filters": [["_user_tags", "like", ("%filmcomposer%")]]},
+    {"doctype":"Purchase Receipt", "filters": [["_user_tags", "like", ("%filmcomposer%")]]},
+    {"doctype":"Purchase Invoice", "filters": [["_user_tags", "like", ("%filmcomposer%")]]},
+    {"doctype":"Sales Order", "filters": [["_user_tags", "like", ("%filmcomposer%")]]},
+    {"doctype":"Sales Invoice", "filters": [["_user_tags", "like", ("%filmcomposer%")]]},
+    {"doctype":"Delivery Note", "filters": [["_user_tags", "like", ("%filmcomposer%")]]}
 ]
 
 # Includes in <head>

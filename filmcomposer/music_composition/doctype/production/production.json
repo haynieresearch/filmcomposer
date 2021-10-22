@@ -20,6 +20,7 @@
   "duration",
   "music_duration",
   "production_number",
+  "script",
   "production_img",
   "column_break_1",
   "source",
@@ -284,12 +285,18 @@
   },
   {
    "fieldname": "section_break_40",
-   "fieldtype": "Section Break"
+   "fieldtype": "Section Break",
+   "label": "Miscellaneous Information"
   },
   {
    "fieldname": "notes",
    "fieldtype": "HTML Editor",
    "label": "Notes"
+  },
+  {
+   "fieldname": "script",
+   "fieldtype": "Attach",
+   "label": "Script"
   }
  ],
  "icon": "fa fa-music",
@@ -345,7 +352,7 @@
   }
  ],
  "migration_hash": "d39167f7fc693f012423fd760364da09",
- "modified": "2021-10-22 12:56:47.491869",
+ "modified": "2021-10-22 13:08:53.706797",
  "modified_by": "Administrator",
  "module": "Music Composition",
  "name": "Production",
