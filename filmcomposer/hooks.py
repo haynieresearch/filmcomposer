@@ -27,23 +27,11 @@ app_email = "contact@lancehayniemusic.com"
 app_license = "Apache 2.0"
 
 fixtures = [
-    {"dt": "Custom Field", "filters": [
-        [
-            "name", "in", [
-                "Sales Invoice-film_production_project",
-                "Purchase Invoice-film_production_project",
-                "Purchase Receipt-film_production_project",
-                "Expense Claim-film_production_project",
-                "Purchase Order-film_production_project",
-                "Sales Order-film_production_project",
-                "Delivery Note-film_production_project",
-                "Purchase Invoice-production_music_project",
-                "Purchase Receipt-production_music_project",
-                "Purchase Order-production_music_project",
-                "Expense Claim-production_music_project"
-            ]
-        ]
-    ]}
+    {"doctype":"Custom Field", "filters": [["name", "like", ("%film_production_project%")]]},
+    {"doctype":"Custom Field", "filters": [["name", "like", ("%production_music_project%")]]},
+    {"doctype":"Property Setter", "filters": [["name", "like", ("%film_production_project%")]]},
+    {"doctype":"Property Setter", "filters": [["name", "like", ("%production_music_project%")]]},
+    {"doctype":"Property Setter", "filters": [["_user_tags", "like", ("%filmcomposer%")]]}
 ]
 
 # Includes in <head>

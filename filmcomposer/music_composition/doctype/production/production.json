@@ -47,7 +47,9 @@
   "column_break_4",
   "director_phone",
   "director_mobile",
-  "amended_from"
+  "amended_from",
+  "section_break_40",
+  "notes"
  ],
  "fields": [
   {
@@ -279,6 +281,15 @@
    "options": "Production",
    "print_hide": 1,
    "read_only": 1
+  },
+  {
+   "fieldname": "section_break_40",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "HTML Editor",
+   "label": "Notes"
   }
  ],
  "icon": "fa fa-music",
@@ -295,6 +306,14 @@
   {
    "link_doctype": "Cue Sheet",
    "link_fieldname": "production_id"
+  },
+  {
+   "link_doctype": "Opportunity",
+   "link_fieldname": "film_production_project"
+  },
+  {
+   "link_doctype": "Customer",
+   "link_fieldname": "film_production_project"
   },
   {
    "link_doctype": "Expense Claim",
@@ -326,7 +345,7 @@
   }
  ],
  "migration_hash": "d39167f7fc693f012423fd760364da09",
- "modified": "2021-10-21 16:30:17.190369",
+ "modified": "2021-10-22 12:56:47.491869",
  "modified_by": "Administrator",
  "module": "Music Composition",
  "name": "Production",

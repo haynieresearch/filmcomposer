@@ -27,6 +27,16 @@ frappe.ui.form.on('Production', {
               production_id: frm.doc.name
           })
       }, __('Create'))
+      frm.add_custom_button('Opportunity', () => {
+          frappe.new_doc('Opportunity', {
+              film_production_project: frm.doc.name
+          })
+      }, __('Create'))
+      frm.add_custom_button('Customer', () => {
+          frappe.new_doc('Customer', {
+              film_production_project: frm.doc.name
+          })
+      }, __('Create'))
       frm.add_custom_button('Expense Claim', () => {
           frappe.new_doc('Expense Claim', {
               film_production_project: frm.doc.name
