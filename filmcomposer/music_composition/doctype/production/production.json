@@ -60,14 +60,14 @@
   },
   {
    "fieldname": "duration",
-   "fieldtype": "Duration",
+   "fieldtype": "Data",
    "hide_days": 1,
    "in_list_view": 1,
    "label": "Production Duration"
   },
   {
    "fieldname": "music_duration",
-   "fieldtype": "Duration",
+   "fieldtype": "Data",
    "hide_days": 1,
    "label": "Total Music Duration"
   },
@@ -352,7 +352,7 @@
   }
  ],
  "migration_hash": "3f3aeeb1008b944e2ecf2d8c42b77622",
- "modified": "2021-10-22 16:04:15.938748",
+ "modified": "2021-11-01 16:58:58.852609",
  "modified_by": "Administrator",
  "module": "Music Composition",
  "name": "Production",
