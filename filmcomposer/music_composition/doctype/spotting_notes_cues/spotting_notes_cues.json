@@ -34,14 +34,14 @@
   },
   {
    "fieldname": "start_time",
-   "fieldtype": "Duration",
+   "fieldtype": "Data",
    "hide_days": 1,
    "in_list_view": 1,
    "label": "Start"
   },
   {
    "fieldname": "stop_time",
-   "fieldtype": "Duration",
+   "fieldtype": "Data",
    "hide_days": 1,
    "in_list_view": 1,
    "label": "Stop"
@@ -62,8 +62,8 @@
  ],
  "istable": 1,
  "links": [],
- "migration_hash": "a3a146a949357a204f334e7e665d8e94",
- "modified": "2021-10-19 11:00:46.785451",
+ "migration_hash": "d2e3b623f739d74b3c5af4f4b00d06e6",
+ "modified": "2021-11-01 14:59:21.216753",
  "modified_by": "Administrator",
  "module": "Music Composition",
  "name": "Spotting Notes Cues",

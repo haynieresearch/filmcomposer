@@ -27,10 +27,7 @@ app_email = "contact@lancehayniemusic.com"
 app_license = "Apache 2.0"
 
 fixtures = [
-    {"doctype":"Custom Field", "filters": [["name", "like", ("%film_production_project%")]]},
-    {"doctype":"Custom Field", "filters": [["name", "like", ("%production_music_project%")]]},
-    {"doctype":"Property Setter", "filters": [["name", "like", ("%film_production_project%")]]},
-    {"doctype":"Property Setter", "filters": [["name", "like", ("%production_music_project%")]]},
+    {"doctype":"Custom Field", "filters": [["_user_tags", "like", ("%filmcomposer%")]]},
     {"doctype":"Property Setter", "filters": [["_user_tags", "like", ("%filmcomposer%")]]},
     {"doctype":"Opportunity", "filters": [["_user_tags", "like", ("%filmcomposer%")]]},
     {"doctype":"Customer", "filters": [["_user_tags", "like", ("%filmcomposer%")]]},
@@ -41,6 +38,25 @@ fixtures = [
     {"doctype":"Sales Order", "filters": [["_user_tags", "like", ("%filmcomposer%")]]},
     {"doctype":"Sales Invoice", "filters": [["_user_tags", "like", ("%filmcomposer%")]]},
     {"doctype":"Delivery Note", "filters": [["_user_tags", "like", ("%filmcomposer%")]]}
+]
+
+calendars = ["Production", "Production Music Project"]
+
+domains = {
+	'Film Composer': 'filmcomposer.domains.filmcomposer'
+}
+
+#website_generators = ["Production", "Spotting Notes", "Sketch Project"]
+
+website_route_rules = [
+	{"from_route": "/production-project", "to_route": "Production"},
+    {"from_route": "/spotting-notes", "to_route": "Spotting Notes"},
+    {"from_route": "/sketch-project", "to_route": "Sketch Project"}
+]
+
+default_roles = [
+	{'role': 'Director', 'doctype':'Contact', 'email_field': 'email_id'},
+	{'role': 'Producer', 'doctype':'Contact', 'email_field': 'email_id'}
 ]
 
 # Includes in <head>

@@ -1,5 +1,7 @@
 {
  "actions": [],
+ "allow_auto_repeat": 1,
+ "allow_import": 1,
  "autoname": "field:project_id",
  "creation": "2021-10-19 11:04:21.128950",
  "doctype": "DocType",
@@ -103,8 +105,8 @@
    "link_fieldname": "production_music_project"
   }
  ],
- "migration_hash": "52692b249d22d7b187e3387a407ea5d4",
- "modified": "2021-10-21 16:45:57.698532",
+ "migration_hash": "46c7c2f31c3f87b0a9a779570aa5864a",
+ "modified": "2021-10-22 16:53:22.551586",
  "modified_by": "Administrator",
  "module": "Music Composition",
  "name": "Production Music Project",

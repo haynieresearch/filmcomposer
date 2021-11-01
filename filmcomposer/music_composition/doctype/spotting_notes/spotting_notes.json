@@ -49,7 +49,7 @@
   },
   {
    "fieldname": "duration",
-   "fieldtype": "Duration",
+   "fieldtype": "Data",
    "hide_days": 1,
    "in_list_view": 1,
    "label": "Production Duration",
@@ -57,7 +57,7 @@
   },
   {
    "fieldname": "music_duration",
-   "fieldtype": "Duration",
+   "fieldtype": "Data",
    "hide_days": 1,
    "label": "Total Music Duration",
    "read_only": 1
@@ -171,10 +171,9 @@
    "read_only": 1
   }
  ],
- "is_submittable": 1,
  "links": [],
- "migration_hash": "5e97b9269bad2fe868c72a9d0a5e30c6",
- "modified": "2021-10-18 22:55:51.086147",
+ "migration_hash": "a6242c3e536dfe920c2d6f999324e393",
+ "modified": "2021-11-01 14:59:42.735110",
  "modified_by": "Administrator",
  "module": "Music Composition",
  "name": "Spotting Notes",
@@ -192,7 +191,6 @@
    "report": 1,
    "role": "System Manager",
    "share": 1,
-   "submit": 1,
    "write": 1
   },
   {
@@ -204,7 +202,6 @@
    "report": 1,
    "role": "Employee",
    "share": 1,
-   "submit": 1,
    "write": 1
   }
  ],
