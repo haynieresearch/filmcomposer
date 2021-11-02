@@ -27,8 +27,7 @@
   "director_mobile",
   "section_break",
   "html",
-  "cues",
-  "amended_from"
+  "cues"
  ],
  "fields": [
   {
@@ -98,6 +97,7 @@
    "label": "Director"
   },
   {
+   "fetch_from": "production_id.director_name",
    "fieldname": "director_name",
    "fieldtype": "Data",
    "label": "Director Name",
@@ -105,6 +105,7 @@
    "read_only": 1
   },
   {
+   "fetch_from": "production_id.director_email",
    "fieldname": "director_email",
    "fieldtype": "Data",
    "label": "Director Email",
@@ -116,6 +117,7 @@
    "fieldtype": "Column Break"
   },
   {
+   "fetch_from": "production_id.director_phone",
    "fieldname": "director_phone",
    "fieldtype": "Data",
    "label": "Director Phone",
@@ -123,9 +125,10 @@
    "read_only": 1
   },
   {
+   "fetch_from": "production_id.director_mobile",
    "fieldname": "director_mobile",
    "fieldtype": "Data",
-   "label": "Director Mobile Phone",
+   "label": "Director Mobile",
    "options": "Phone",
    "read_only": 1
   },
@@ -160,20 +163,11 @@
   {
    "fieldname": "column_break_0",
    "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "amended_from",
-   "fieldtype": "Link",
-   "label": "Amended From",
-   "no_copy": 1,
-   "options": "Spotting Notes",
-   "print_hide": 1,
-   "read_only": 1
   }
  ],
  "links": [],
  "migration_hash": "a6242c3e536dfe920c2d6f999324e393",
- "modified": "2021-11-01 16:57:28.508712",
+ "modified": "2021-11-02 10:28:03.483132",
  "modified_by": "Administrator",
  "module": "Music Composition",
  "name": "Spotting Notes",
@@ -205,6 +199,7 @@
    "write": 1
   }
  ],
+ "route": "spotting-notes",
  "sort_field": "modified",
  "sort_order": "DESC",
  "title_field": "production_id",

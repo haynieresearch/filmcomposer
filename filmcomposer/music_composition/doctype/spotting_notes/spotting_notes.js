@@ -15,40 +15,17 @@
 //WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 //See the License for the specific language governing permissions and
 //limitations under the License.
-frappe.ui.form.on('Spotting Notes', {
-  setup: function(frm) {
-    refreshData();
-    cur_frm.set_query("cue_id", "cues", function(doc, cdt, cdn) {
-    	return{
-    		filters: [
-    			['Cue', 'production_id', '=', frm.doc.production_id]
-    		]
-    	}
-    });
-	},
-
-  onload: function(frm) {
-    refreshData();
-  },
-
-  refresh: function(frm) {
-    refreshData();
-    frm.add_custom_button('Create Sketch Project', () => {
-        frappe.new_doc('Sketch Project', {
-            production_id: frm.doc.production_id,
-            spotting_notes_id: frm.doc.name,
-        })
-    })
-    frm.add_custom_button('Create Cue Sheet', () => {
-        frappe.new_doc('Cue Sheet', {
-            production_id: frm.doc.production_id,
-            spotting_notes_id: frm.doc.name,
-        })
-    })
-  }
+frappe.ui.form.on('Spotting Notes', 'setup', function(frm) {
+  cur_frm.set_query("cue_id", "cues", function(doc, cdt, cdn) {
+  	return{
+  		filters: [
+  			['Cue', 'production_id', '=', frm.doc.production_id]
+  		]
+  	}
+  });
 });
 
-function refreshData() {
+frappe.ui.form.on('Spotting Notes', 'onload', function(frm) {
   cur_frm.add_fetch('production_id', 'duration', 'duration')
   cur_frm.add_fetch('production_id', 'music_duration', 'music_duration')
   cur_frm.add_fetch('production_id', 'category', 'category')
@@ -59,4 +36,19 @@ function refreshData() {
   cur_frm.add_fetch('production_id', 'director_email', 'director_email')
   cur_frm.add_fetch('production_id', 'director_phone', 'director_phone')
   cur_frm.add_fetch('production_id', 'director_mobile', 'director_mobile')
-}
+});
+
+frappe.ui.form.on('Spotting Notes', 'refresh', function(frm) {
+  frm.add_custom_button('Create Sketch Project', () => {
+      frappe.new_doc('Sketch Project', {
+          production_id: frm.doc.production_id,
+          spotting_notes_id: frm.doc.name,
+      })
+  })
+  frm.add_custom_button('Create Cue Sheet', () => {
+      frappe.new_doc('Cue Sheet', {
+          production_id: frm.doc.production_id,
+          spotting_notes_id: frm.doc.name,
+      })
+  })
+});

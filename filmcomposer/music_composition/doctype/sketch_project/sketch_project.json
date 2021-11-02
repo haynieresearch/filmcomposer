@@ -101,16 +101,18 @@
    "label": "Director"
   },
   {
+   "fetch_from": "production_id.director_name",
    "fieldname": "director_name",
    "fieldtype": "Data",
-   "label": "Name",
+   "label": "Director Name",
    "options": "Name",
    "read_only": 1
   },
   {
+   "fetch_from": "production_id.director_email",
    "fieldname": "director_email",
    "fieldtype": "Data",
-   "label": "Email",
+   "label": "Director Email",
    "options": "Email",
    "read_only": 1
   },
@@ -119,16 +121,18 @@
    "fieldtype": "Column Break"
   },
   {
+   "fetch_from": "production_id.director_phone",
    "fieldname": "director_phone",
    "fieldtype": "Data",
-   "label": "Phone",
+   "label": "Director Phone",
    "options": "Phone",
    "read_only": 1
   },
   {
+   "fetch_from": "production_id.director_mobile",
    "fieldname": "director_mobile",
    "fieldtype": "Data",
-   "label": "Mobile Phone",
+   "label": "Director Mobile",
    "options": "Phone",
    "read_only": 1
   },
@@ -156,8 +160,8 @@
   }
  ],
  "links": [],
- "migration_hash": "4fbc71f9bc3051a434fc19bdeb3c6f12",
- "modified": "2021-10-21 11:09:33.327327",
+ "migration_hash": "7e150a237b9e2b4ecb061cdc383aeab9",
+ "modified": "2021-11-02 09:07:24.349408",
  "modified_by": "Administrator",
  "module": "Music Composition",
  "name": "Sketch Project",
