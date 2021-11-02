@@ -52,7 +52,7 @@
   },
   {
    "fieldname": "duration",
-   "fieldtype": "Duration",
+   "fieldtype": "Data",
    "hide_days": 1,
    "in_list_view": 1,
    "label": "Production Duration",
@@ -60,7 +60,7 @@
   },
   {
    "fieldname": "music_duration",
-   "fieldtype": "Duration",
+   "fieldtype": "Data",
    "hide_days": 1,
    "label": "Total Music Duration",
    "read_only": 1
@@ -161,7 +161,7 @@
  ],
  "links": [],
  "migration_hash": "7e150a237b9e2b4ecb061cdc383aeab9",
- "modified": "2021-11-02 09:07:24.349408",
+ "modified": "2021-11-02 11:17:57.265130",
  "modified_by": "Administrator",
  "module": "Music Composition",
  "name": "Sketch Project",
