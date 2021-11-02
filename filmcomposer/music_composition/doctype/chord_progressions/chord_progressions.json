@@ -1,0 +1,76 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "hash",
+ "creation": "2021-11-02 13:07:39.535787",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "progression",
+  "column_break_2",
+  "emotion",
+  "section_break_4",
+  "examples"
+ ],
+ "fields": [
+  {
+   "description": "Format: I-V-vi-IV",
+   "fieldname": "progression",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Progression",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "default": "Generic",
+   "fieldname": "emotion",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Emotion",
+   "options": "Generic\nAdmiration\nAdoration\nAppreciation\nAmusement\nAnger\nAnxiety\nAwe\nAwkwardness\nBoredom\nCalmness\nConfusion\nCraving\nDisgust\nEmpathic\nEntrancement\nExcitement\nFear\nHorror\nInterest\nJoy\nNostalgia\nRelief\nSadness\nSatisfaction\nSurprise",
+   "reqd": 1
+  },
+  {
+   "fieldname": "examples",
+   "fieldtype": "Text",
+   "label": "Examples"
+  },
+  {
+   "fieldname": "column_break_2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_4",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-11-02 13:13:25.897116",
+ "modified_by": "Administrator",
+ "module": "Music Composition",
+ "name": "Chord Progressions",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "search_fields": "progression, emotion",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "title_field": "progression",
+ "track_changes": 1
+}

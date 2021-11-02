@@ -85,7 +85,7 @@
    "hidden": 0,
    "is_query_report": 0,
    "label": "Music Composition",
-   "link_count": 4,
+   "link_count": 5,
    "onboard": 0,
    "type": "Card Break"
   },
@@ -128,9 +128,19 @@
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Chord Progressions",
+   "link_count": 0,
+   "link_to": "Chord Progressions",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
   }
  ],
- "modified": "2021-10-19 11:37:02.986531",
+ "modified": "2021-11-02 13:28:16.410885",
  "modified_by": "Administrator",
  "module": "Music Composition",
  "name": "Film Scoring",
