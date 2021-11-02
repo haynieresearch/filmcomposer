@@ -73,6 +73,7 @@ frappe.ui.form.on('Sketch Project', 'spotting_notes_id', function(frm) {
           var d = frm.add_child("cues");
           d.cue_id = row.cue_id;
           d.cue_no = row.cue_no;
+          d.notes = row.description;
           frm.refresh_field("cues");
       });
   });
