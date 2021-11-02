@@ -10,6 +10,7 @@
   "progression",
   "column_break_2",
   "emotion",
+  "style",
   "section_break_4",
   "examples"
  ],
@@ -24,12 +25,12 @@
    "unique": 1
   },
   {
-   "default": "Generic",
+   "default": "TBD",
    "fieldname": "emotion",
    "fieldtype": "Select",
    "in_list_view": 1,
    "label": "Emotion",
-   "options": "Generic\nAdmiration\nAdoration\nAppreciation\nAmusement\nAnger\nAnxiety\nAwe\nAwkwardness\nBoredom\nCalmness\nConfusion\nCraving\nDisgust\nEmpathic\nEntrancement\nExcitement\nFear\nHorror\nInterest\nJoy\nNostalgia\nRelief\nSadness\nSatisfaction\nSurprise",
+   "options": "TBD\nGeneric\nAdmiration\nAdoration\nAppreciation\nAmusement\nAnger\nAnxiety\nAwe\nAwkwardness\nBoredom\nCalmness\nConfusion\nCraving\nDisgust\nEmpathic\nEntrancement\nExcitement\nFear\nHorror\nInterest\nJoy\nNostalgia\nRelief\nSadness\nSatisfaction\nSurprise",
    "reqd": 1
   },
   {
@@ -44,11 +45,19 @@
   {
    "fieldname": "section_break_4",
    "fieldtype": "Section Break"
+  },
+  {
+   "default": "TBD",
+   "fieldname": "style",
+   "fieldtype": "Select",
+   "label": "Style",
+   "options": "TBD\nGeneric\nAlternative\nBlues\nDreadful\nEndless\nEnergetic\nFlamenco\nFolk\nGrunge\nJazz\nLove\nMoody\nNostalgic\nPachelbel\nPopular\nRebellious\nRock\nRomanesca\nSad\nSweet\nWild\nWistful",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2021-11-02 13:13:25.897116",
+ "modified": "2021-11-02 13:48:42.336305",
  "modified_by": "Administrator",
  "module": "Music Composition",
  "name": "Chord Progressions",
