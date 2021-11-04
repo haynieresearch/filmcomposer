@@ -60,7 +60,8 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2021-11-02 13:53:14.878733",
+ "migration_hash": "29d5217ddf7b2f1b495696082f313ab1",
+ "modified": "2021-11-04 17:26:49.772269",
  "modified_by": "Administrator",
  "module": "Music Composition",
  "name": "Chord Progressions",
@@ -78,6 +79,47 @@
    "role": "System Manager",
    "share": 1,
    "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Film Composer Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Film Composer",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Mixing Engineer",
+   "share": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Sound Designer",
+   "share": 1
   }
  ],
  "search_fields": "progression, emotion",

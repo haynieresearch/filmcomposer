@@ -19,11 +19,11 @@ from . import __version__ as app_version
 
 app_name = "filmcomposer"
 app_title = "Film Composer"
-app_publisher = "Lance Haynie, LLC"
+app_publisher = "Haynie Research & Development, LLC"
 app_description = "Film Composer"
 app_icon = "fa fa-music"
 app_color = "grey"
-app_email = "contact@lancehayniemusic.com"
+app_email = "info@haynieresearch.us"
 app_license = "Apache 2.0"
 
 fixtures = [
@@ -37,7 +37,8 @@ fixtures = [
     {"doctype":"Purchase Invoice", "filters": [["_user_tags", "like", ("%filmcomposer%")]]},
     {"doctype":"Sales Order", "filters": [["_user_tags", "like", ("%filmcomposer%")]]},
     {"doctype":"Sales Invoice", "filters": [["_user_tags", "like", ("%filmcomposer%")]]},
-    {"doctype":"Delivery Note", "filters": [["_user_tags", "like", ("%filmcomposer%")]]}
+    {"doctype":"Delivery Note", "filters": [["_user_tags", "like", ("%filmcomposer%")]]},
+    {"doctype":"Role", "filters": [["_user_tags", "like", ("%filmcomposer%")]]}
 ]
 
 calendars = ["Production", "Production Music Project"]
