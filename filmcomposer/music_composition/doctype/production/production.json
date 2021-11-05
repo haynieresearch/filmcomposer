@@ -48,7 +48,6 @@
   "column_break_4",
   "director_phone",
   "director_mobile",
-  "amended_from",
   "section_break_40",
   "notes"
  ],
@@ -77,7 +76,7 @@
    "fieldtype": "Select",
    "in_list_view": 1,
    "label": "Category",
-   "options": "Arts\nBroadcast\nBroadcast Series\nCartoon\nCartoon Series\nChildren's Show\nChildren's Special\nCinema\nDaytime Soap\nEntertainment News\nFinance\nFirst Run Syndicated\nGame Show\nHealth\nHobbies/Craft\nInstructional\nMagazine News\nMini-Series\nMovie\nShort Film\nMusic\nMusic Special\nMusic Video\nMusic Video Series\nNews\nNon Broadcast\nNon Broadcast Series\nNovela\nPaid Programs\nPelicula\nPlay-off Sport\nPseudo-Sport\nReality\nReligious\nReligious Special\nSeasonal Special\nSeries\nSpecial\nSporting Event\nSports\nSports Anthology\nSports Related\nTalk Show\nTeam vs. Team Sport\nTheme Park\nTheme Park Series\nTrailer\nTV Movie",
+   "options": "Advertisement\nArts\nBroadcast\nBroadcast Series\nCartoon\nCartoon Series\nChildren's Show\nChildren's Special\nCinema\nCorporate\nDaytime Soap\nEntertainment News\nFinance\nFirst Run Syndicated\nGame Show\nHealth\nHobbies/Craft\nInstructional\nMagazine News\nMini-Series\nMovie\nMusic\nMusic Special\nMusic Video\nMusic Video Series\nNews\nNon Broadcast\nNon Broadcast Series\nNovela\nPaid Programs\nPelicula\nPlay-off Sport\nPseudo-Sport\nReality\nReligious\nReligious Special\nSeasonal Special\nSeries\nShort Film\nSpecial\nSporting Event\nSports\nSports Anthology\nSports Related\nTV Movie\nTalk Show\nTeam vs. Team Sport\nTheme Park\nTheme Park Series\nTrailer",
    "reqd": 1
   },
   {
@@ -259,6 +258,7 @@
    "label": "Status Date"
   },
   {
+   "default": "Lance Haynie, LLC",
    "fieldname": "score_company",
    "fieldtype": "Link",
    "label": "Score Company",
@@ -275,23 +275,13 @@
    "report_hide": 1
   },
   {
-   "fieldname": "amended_from",
-   "fieldtype": "Link",
-   "label": "Amended From",
-   "no_copy": 1,
-   "options": "Production",
-   "print_hide": 1,
-   "read_only": 1
-  },
-  {
    "fieldname": "section_break_40",
    "fieldtype": "Section Break",
-   "label": "Miscellaneous Information"
+   "label": "Notes"
   },
   {
    "fieldname": "notes",
-   "fieldtype": "HTML Editor",
-   "label": "Notes"
+   "fieldtype": "Text Editor"
   },
   {
    "fieldname": "script",
@@ -351,8 +341,8 @@
    "link_fieldname": "film_production_project"
   }
  ],
- "migration_hash": "3f3aeeb1008b944e2ecf2d8c42b77622",
- "modified": "2021-11-02 09:00:57.549305",
+ "migration_hash": "0c965d775c995dd080c1b6838a6df590",
+ "modified": "2021-11-04 18:02:30.662971",
  "modified_by": "Administrator",
  "module": "Music Composition",
  "name": "Production",

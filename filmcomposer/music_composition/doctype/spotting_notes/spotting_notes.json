@@ -27,7 +27,9 @@
   "director_mobile",
   "section_break",
   "html",
-  "cues"
+  "cues",
+  "notes_section",
+  "notes"
  ],
  "fields": [
   {
@@ -163,11 +165,20 @@
   {
    "fieldname": "column_break_0",
    "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "notes_section",
+   "fieldtype": "Section Break",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Text Editor"
   }
  ],
  "links": [],
- "migration_hash": "a6242c3e536dfe920c2d6f999324e393",
- "modified": "2021-11-02 10:28:03.483132",
+ "migration_hash": "710cdae781b4ea4bc4375cec4f2965c6",
+ "modified": "2021-11-04 18:04:28.852487",
  "modified_by": "Administrator",
  "module": "Music Composition",
  "name": "Spotting Notes",

@@ -17,7 +17,8 @@
   "end_date",
   "section_break",
   "cues",
-  "amended_from"
+  "notes_section",
+  "notes"
  ],
  "fields": [
   {
@@ -30,24 +31,6 @@
    "fieldtype": "Table",
    "label": "Cues",
    "options": "Production Music Cues"
-  },
-  {
-   "fieldname": "amended_from",
-   "fieldtype": "Link",
-   "label": "Amended From",
-   "no_copy": 1,
-   "options": "Production Music Project",
-   "print_hide": 1,
-   "read_only": 1
-  },
-  {
-   "fieldname": "amended_from",
-   "fieldtype": "Link",
-   "label": "Amended From",
-   "no_copy": 1,
-   "options": "Production Music Project",
-   "print_hide": 1,
-   "read_only": 1
   },
   {
    "fieldname": "column_break_2",
@@ -84,9 +67,17 @@
    "label": "Project Name",
    "reqd": 1,
    "unique": 1
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Text Editor"
+  },
+  {
+   "fieldname": "notes_section",
+   "fieldtype": "Section Break",
+   "label": "Notes"
   }
  ],
- "is_submittable": 1,
  "links": [
   {
    "link_doctype": "Expense Claim",
@@ -105,8 +96,8 @@
    "link_fieldname": "production_music_project"
   }
  ],
- "migration_hash": "46c7c2f31c3f87b0a9a779570aa5864a",
- "modified": "2021-10-22 16:53:22.551586",
+ "migration_hash": "fd459a72c8f66eedcb0ca31cc648fbd1",
+ "modified": "2021-11-04 18:01:49.038288",
  "modified_by": "Administrator",
  "module": "Music Composition",
  "name": "Production Music Project",
